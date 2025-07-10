@@ -10,32 +10,37 @@ import Archives from './pages/Archives/Archives';
 import EdBoard from './pages/Editorial-board/EdBoard';
 import Submission from './pages/Submission Guidelines/Submission';
 import Indexing from './pages/Indexing/Indexing';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
 function App() {
   return (
     <>
-    <div className="container">
-      <div className="app">
       <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/archives" element={<Archives />} />
-          <Route path="/editorial-board" element={<EdBoard />} />
-          <Route path="/submission-guidelines" element={<Submission />} />
-          <Route path="/indexing" element={<Indexing />} />
-        </Routes>
-        
-      </Router>
+
+        <div className="container">
+          <div className="app">
+            <ScrollToTop />
+            <Header />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/archives" element={<Archives />} />
+              <Route path="/editorial-board" element={<EdBoard />} />
+              <Route path="/submission-guidelines" element={<Submission />} />
+              <Route path="/indexing" element={<Indexing />} />
+            </Routes>
+
+
+        </div>
+        <hr />
+        <Footer />
+
 
       </div>
-      <Footer />
-    
 
-    </div>
-      
+      </Router>
+
     </>
 
 

@@ -21,7 +21,7 @@ const footer = () => {
                 <div className="footer-content-center">
                     <h2>Publisher</h2>
                     <p>Dr. Vijay Bahadur Pandey</p>
-                    <h2>Printed & Managed by: </h2>
+                    {/* <h2>Printed & Managed by: </h2> */}
                     <p>Anagh-Forum for Sustainable Outreach </p>
                     <p>(CIN-U85300BR2023NPL061509)</p>
                     <a href="https://anagh.in/">https://anagh.in/</a>
@@ -36,6 +36,9 @@ const footer = () => {
             </div>
             <hr />
             <p className='footer-copyright'>Copyright 2025 © lexrevolution.in - All Rights Reserved</p>
+            {/* <hr /> */}
+            <h4>Desined & Developed by: Ayush Pandey</h4>
+            <p>Email: pandeyayush.0005@gmail.com</p>
         </div>
     )
 }

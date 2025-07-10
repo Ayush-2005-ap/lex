@@ -11,13 +11,16 @@ const Header = () => {
                 <img className='logo' src={assets.logo} alt="" />
                 <ul className='navbar-menu'>
                     {/* <a href="#home">Home</a> */}
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/archives">Archives</Link></li>
-                    <li><Link to="/editorial-board">Editorial Board</Link></li>
-                    <li><Link to="/submission-guidelines">Submission Guidelines</Link></li>
-                    <li><Link to="/indexing">Indexing</Link></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                    <li><a href="/editorial-board">Editorial Board</a></li>
+                    <li><a href="/submission-guidelines">Submission Guidelines</a></li>
+                    <li><a href="/indexing">Indexing</a></li>
                 </ul>
+
             </div >
+
+            <hr />
 
             <div className="header">
                 <div className="header-contents">
