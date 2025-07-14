@@ -23,7 +23,7 @@ export default function Header() {
                                 <NavLink
                                 to='/'
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#900001]" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#900001] lg:p-0`
                                     }
                                 >
                                     Home
@@ -33,7 +33,7 @@ export default function Header() {
                                 <NavLink
                                 to='/about'
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#900001]" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#900001] lg:p-0`
                                     }
                                 >
                                     About
@@ -41,9 +41,19 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
+                                to='/archives'
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#900001]" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#900001] lg:p-0`
+                                    }
+                                >
+                                    Archives
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
                                 to='/editorial-board'
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#900001]" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#900001] lg:p-0`
                                     }
                                 >
                                     Editorial Board
@@ -51,12 +61,32 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
-                                to='/github'
+                                to='/submission-guidelines'
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#900001]" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#900001] lg:p-0`
                                     }
                                 >
                                     Submission Guidelines
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to='/ethical'
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#900001]" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#900001] lg:p-0`
+                                    }
+                                >
+                                    Ethical Policy
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to='/indexing'
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#900001]" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#900001] lg:p-0`
+                                    }
+                                >
+                                    Indexing
                                 </NavLink>
                             </li>
                             

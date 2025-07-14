@@ -123,7 +123,7 @@ const Editor = () => {
 
     return (
         <div className="p-4 bg-white">
-            <h1 className="text-[60px] text-[#a90c0c] text-center p-5 font-bold">Welcome to Editorial Board</h1>
+            <h1 className="text-3xl sm:text-4xl text-[#a90c0c] text-center p-5 font-bold">Welcome to Editorial Board</h1>
 
             <div className="w-full h-[2px] bg-black my-6"></div>
 
