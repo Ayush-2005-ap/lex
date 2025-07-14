@@ -35,7 +35,7 @@ const Editor = () => {
             </a>
             <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Animesh Kumar</h2>
             <h3 className="text-[#a90c0c] font-[cursive] text-lg">Editor-in-Chief</h3>
-            <h4 className="text-black text-sm">animesh.kumar@anagh.in</h4>
+            <h4 className="text-black text-sm font-bold">animesh.kumar@anagh.in</h4>
             <p className="text-center text-sm text-black">Advocate , Patna High Court , Director , Anagh Forum for Sustainable Outreach</p>
           </div>
 
@@ -46,7 +46,7 @@ const Editor = () => {
             </a>
             <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Mayuri Gupta</h2>
             <h3 className="text-[#a90c0c] font-[cursive] text-lg">Chief Executive Editor</h3>
-            <h4 className="text-black text-sm">mayuri.gupta@vidhilegalpolicy.in</h4>
+            <h4 className="text-black text-sm font-bold">mayuri.gupta@vidhilegalpolicy.in</h4>
             <p className="text-center text-sm text-black">MKB Senior Resident Fellow, Vidhi Centre for Legal Policy</p>
           </div>
         </div>
@@ -60,75 +60,94 @@ const Editor = () => {
             {[
               {
                 name: 'Dr. Jayanta Ghosh',
-                title: 'Research Fellow, WBNUJS, Kolkata',
-                email: 'jayanta.ghosh@example.com',
+                title: 'Assistant Professor & Coordinator',
+                university: ' CRSGPP, WBNUJS, Kolkata',
+                email: 'jayantaghoshcool@gmail.com',
                 img: '/Images/jayanta-ghosh.jpg',
               },
               {
                 name: 'Dr. Ankita Sharma',
-                title: 'Associate Professor , G.D. Goenka University, Gurugram',
+                title: 'Associate Professor',
+                university:'G.D. Goenka University, Gurugram',
                 email: 'ankitasharma.law@gmail.com',
                 img: '/Images/Ankita-Sharma.jpg',
               },
               {
                 name: 'Juhi Singh',
-                title: 'Legal Counsel, Penguin Random House India',
+                title: 'Legal Counsel',
+                university:'Penguin Random House India',
                 email: 'juhi248@gmail.com',
                 img: '/Images/juhi singh.jpg',
               },
               {
                 name: 'Dr. Avnish Singh',
-                title: 'Assistant Professor, Bennett University, Greater Noida',
+                title: 'Assistant Professor',
+                university:'Bennett University, Greater Noida',
                 email: 'singh.avnish94@gmail.com',
                 img: '/Images/avnishsir-final.jpg',
               },
               {
                 name: 'Dr. Sumit Agarwal',
-                title: 'Assistant Professor, The Assam Royal Global University, Guwahati',
+                title: 'Assistant Professor',
+                university:'The Assam Royal Global University, Guwahati',
                 email: 'sumit_agarwal2008@rediff.com',
                 img: '/Images/Dr. sumit.png',
               },
               {
                 name: 'Dr. Shailesh Mishra',
-                title: 'Assistant Professor, ICFAI University, Dehradun',
+                title: 'Assistant Professor',
+                university:'ICFAI University, Dehradun',
                 email: 'adv.shaileshmishra@gmail.com',
                 img: '/Images/Dr. shailesh.png',
               },
               {
                 name: 'Dr. Preeti Singh',
-                title: 'Assistant Professor, Bennett University, Greater Noida',
+                title: 'Assistant Professor',
+                university:'Bennett University, Greater Noida',
                 email: 'singh.preeti1092@gmail.com',
                 img: '/Images/dr.preeti-final.jpg',
               },
               {
                 name: 'Aprajita Kumari',
-                title: 'Zahid Law Firm, Toronto, Ontario, Canada',
+                title: 'Zahid Law Firm',
+                university:'Toronto, Ontario, Canada',
                 email: 'aparajitaktr@gmail.com',
                 img: '/Images/Aprajita.jpg',
               },
               {
                 name: 'Dr. Ravi Prakash Chaubey',
-                title: 'Assistant Professor (Indic Studies), Gurugram University, Gurugram',
+                title: 'Assistant Professor (Indic Studies)',
+                university:'Gurugram University, Gurugram',
                 email: 'ravipchaube@gmail.com',
                 img: '/Images/Ravi-prakash-chaubey.jpg',
               },
               {
                 name: 'Dr. Bhupali Saikia',
-                title: 'Assistant Professor, The Assam Royal Global University, Guwahati',
+                title: 'Assistant Professor',
+                university:'The Assam Royal Global University, Guwahati',
                 email: 'saikiabhupali2@gmail.com',
                 img: '/Images/Bhupali-Saikia.jpg',
               },
               {
                 name: 'Rachit Sharma',
-                title: 'Assistant Professor, IILM University, Greater Noida',
+                title: 'Assistant Professor ',
+                university:'IILM University, Greater Noida',
                 email: '7rachitsharma@gmail.com',
                 img: '/Images/Rachit-Sharma.jpg',
+              },
+              {
+                name: 'Snigdha Gupta',
+                title: '',
+                university: '',
+                email: 'snigdhagupta0@gmail.com',
+                img: '/Images/Snigdha-final.jpg'
               },
             ].map((editor, idx) => (
               <div key={idx} className="min-w-[300px] flex flex-col items-center bg-white rounded p-4 shadow hover:scale-105 hover:bg-gray-300 transition duration-300">
                 <img src={editor.img} alt={editor.name} className="w-full rounded" />
                 <h3 className="text-[#11ACD5] font-semibold text-base mt-3">{editor.name}</h3>
-                <p className="text-sm text-black text-center">{editor.title}</p>
+                <p className="text-lg text-black text-center">{editor.title}</p>
+                <p className='text-sm text-black text-center'>{editor.university}</p>
                 <p className="text-sm text-black">{editor.email}</p>
               </div>
             ))}
@@ -156,7 +175,11 @@ const Editor = () => {
         {/* Advisory Board */}
         <div className="mt-10 text-center">
           <h2 className="text-[40px] text-[#a90c0c] font-semibold">Advisory Board</h2>
-          <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
+          <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded">
+            {[
+                
+            ]}
+          </div>
           {/* Continue rendering advisory board data similarly here... */}
         </div>
       </div>
