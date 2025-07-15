@@ -117,7 +117,30 @@ const Editor = () => {
         },
         {
             name:'	Dr. Shilpika Pandey',
-            title:'Asst. Professor of Law, UPES, Dehradun',
+            title:'Asst. Professor of Law, D.Y Patil International University, Pune',
+        },
+      ];
+
+      const associate = [
+        {
+            name: 'Ashish Sharma',
+            title:'Advocate',
+        },
+        {
+            name:'Harsha Manav',
+            title:'Advocate',
+        },
+        {
+            name:'Shivam Kumar Gupta',
+            title:'Doctoral Candidate, Bennett University',
+        },
+        {
+            name:'Sandhya Sharma',
+            title:'Doctoral Candidate, Bennett University',
+        },
+        {
+            name:'Gaurav Yadav',
+            title:'Asst. Professor, ICFAI University, Dehradun',
         },
       ];
 
@@ -278,15 +301,27 @@ const Editor = () => {
                 <div className="mt-10 text-center">
                     <h2 className="text-[40px] text-[#a90c0c] font-semibold">Associate Editors</h2>
                     <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
-                    <div className="flex flex-col items-center gap-2">
-                        {[
+                    <div className="flex lg:grid gap-6 lg:grid-cols-3 overflow-x-auto pb-6">
+                        {/* {[
                             'Ashish Sharma',
                             'Harsha Manav',
                             'Shivam Kumar Gupta',
                             'Sandhya Sharma',
                             'Gaurav Yadav',
                         ].map((name, idx) => (
-                            <h3 key={idx} className="text-[30px] text-[#11ACD5]">{name}</h3>
+                            <h3 key={idx} className="flex-shrink-0 lg:flex-shrink lg:w-auto w-72 bg-white rounded p-4 shadow text-center hover:scale-105 hover:bg-gray-300 transition duration-300">{name}</h3>
+                        ))} */}
+                        {associate.map((member, idx) => (
+                            <div
+                                key={idx}
+                                className="flex-shrink-0 lg:flex-shrink lg:w-auto w-72 bg-white rounded p-4 shadow text-center hover:scale-105 hover:bg-gray-300 transition duration-300"
+                            >
+                                <h3 className="text-[#11ACD5] font-bold text-lg break-words">{member.name}</h3>
+                                <h4 className="text-black font-semibold text-base mt-1 break-words">
+                                    {member.title}
+                                </h4>
+
+                            </div>
                         ))}
                     </div>
                 </div>
