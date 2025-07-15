@@ -3,7 +3,7 @@ import React from 'react';
 const Archives = () => (
   <main className="flex flex-col items-center justify-center min-h-[60vh] bg-white px-4">
     {/* big headline with emoji */}
-    <h1 className="text-4xl sm:text-5xl font-bold text-[#900001] tracking-wide flex items-center gap-3">
+    <h1 className="text-4xl sm:text-5xl font-bold text-[#900001] tracking-wide flex items-center gap-3 animate-fadeInUp">
       Coming&nbsp;Soon <span role="img" aria-label="construction">🚧</span>
     </h1>
 

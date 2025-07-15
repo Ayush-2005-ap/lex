@@ -62,7 +62,7 @@ export default function Footer() {
                         </a>
                         . All Rights Reserved.
                     </span>
-                    <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+                    <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0 animate-fadeInUp">
                         <Link to="https://www.facebook.com/lexrevolution" className="text-gray-500 hover:text-gray-900">
                             <i class="fab fa-facebook"></i>
                             <span className="sr-only">Facebook page</span>

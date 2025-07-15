@@ -14,7 +14,7 @@ const Indexing = () => {
   return (
     <main className="bg-white py-10 px-4 sm:px-8 lg:px-12">
       {/* heading */}
-      <h1 className="text-4xl font-bold text-center text-[#900001] mb-10">
+      <h1 className="text-4xl font-bold text-center text-[#900001] mb-10 animate-fadeInUp">
         Indexing
       </h1>
 
@@ -25,7 +25,7 @@ const Indexing = () => {
             key={title}
             className="flex flex-col items-center justify-center bg-sky-200 text-white
                        border-2 border-black rounded-lg p-6 w-full max-w-xs h-56
-                       transition-transform hover:scale-105 hover:bg-sky-50"
+                       transition-transform hover:scale-105 hover:bg-sky-50 animate-fadeInUp"
           >
             <img
               src={src}

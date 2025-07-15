@@ -27,7 +27,7 @@ const About = () => {
       <div className="max-w-5xl mx-auto border border-gray-300 shadow-md">
         {/* ---------- Section: About the Journal ---------- */}
         <header className="bg-[#e7f2ff] border-b border-gray-300 px-4 py-3">
-          <h1 className="text-xl font-bold text-[#900001] uppercase tracking-wide">
+          <h1 className="text-xl font-bold text-[#900001] uppercase tracking-wide animate-fadeInUp">
             About the Journal
           </h1>
         </header>

@@ -98,3 +98,88 @@ export default function Header() {
         </header>
     );
 }
+
+// import React, { useState } from 'react';
+// import { Link, NavLink } from 'react-router-dom';
+// import { HiMenu, HiX } from 'react-icons/hi'; // npm i react-icons
+
+// export default function Header() {
+//   const [open, setOpen] = useState(false);
+
+//   const links = [
+//     { to: '/',            label: 'Home' },
+//     { to: '/about',       label: 'About' },
+//     { to: '/archives',    label: 'Archives' },
+//     { to: '/editorial-board',   label: 'Editorial Board' },
+//     { to: '/submission-guidelines',  label: 'Submission Guidelines' },
+//     { to: '/indexing',    label: 'Indexing' },
+//   ];
+
+//   /* link style reused on desktop + mobile */
+//   const linkBase =
+//     'block px-4 py-2 md:px-5 md:py-0 text-[#900001] hover:text-black whitespace-nowrap';
+
+//   return (
+//     /* fixed header (remove fixed‑top classes if you prefer non‑sticky) */
+//     <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+//       <div className="mx-auto flex items-center justify-between max-w-screen-xl p-4">
+//         {/* ---- logo ---- */}
+//         <Link to="/" className="flex items-center gap-2">
+//           <img
+//             src="/Images/Logo-final-1.png"
+//             alt="Lex Revolution"
+//             className="h-14 w-auto"
+//           />
+//         </Link>
+
+//         {/* ---- desktop nav ---- */}
+//         <nav className="hidden md:flex gap-4 lg:gap-6">
+//           {links.map(({ to, label }) => (
+//             <NavLink
+//               key={to}
+//               to={to}
+//               className={({ isActive }) =>
+//                 `${linkBase} ${isActive ? 'font-semibold underline' : ''}`
+//               }
+//             >
+//               {label}
+//             </NavLink>
+//           ))}
+//         </nav>
+
+//         {/* ---- hamburger (mobile) ---- */}
+//         <button
+//           onClick={() => setOpen(!open)}
+//           className="md:hidden text-3xl text-[#900001] focus:outline-none"
+//           aria-label="Toggle navigation menu"
+//         >
+//           {open ? <HiX /> : <HiMenu />}
+//         </button>
+//       </div>
+
+//       {/* ---- mobile slide‑down panel ---- */}
+//       <div
+//         /* height‑auto transition: max‑height animates from 0→screen */
+//         className={`md:hidden overflow-hidden bg-white shadow-md transition-all duration-300 ${
+//           open ? 'max-h-[400px] border-t' : 'max-h-0'
+//         }`}
+//       >
+//         {links.map(({ to, label }) => (
+//           <NavLink
+//             key={to}
+//             to={to}
+//             onClick={() => setOpen(false)}           /* close on click */
+//             className={({ isActive }) =>
+//               `${linkBase} text-lg border-b border-gray-200 ${
+//                 isActive ? 'font-semibold underline' : ''
+//               }`
+//             }
+//           >
+//             {label}
+//           </NavLink>
+//         ))}
+//       </div>
+//     </header>
+//   );
+// }
+

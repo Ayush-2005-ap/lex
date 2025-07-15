@@ -4,7 +4,7 @@ const Ethical = () => {
   return (
     <div className="bg-gray-100 text-[#222] py-10 px-6 md:px-16 lg:px-24 font-['Times_New_Roman']">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl text-center font-bold text-[#900001] mb-6">Ethical Policy for Lex Revolution</h1>
+        <h1 className="text-4xl text-center font-bold text-[#900001] mb-6 animate-fadeInUp">Ethical Policy for Lex Revolution</h1>
 
         <p className="mb-4 text-justify">
           Lex Revolution aims at publishing research that is original and in accordance with the scholarly integrity of the journal. Thus, the authors are requested to abide by the ethical duties and responsibilities and help maintain the scholarly integrity.

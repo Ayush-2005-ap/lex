@@ -4,7 +4,7 @@ const Submission = () => {
   return (
     <div className="py-10 px-4 sm:px-8 lg:px-16 bg-gray-50 text-gray-900 font-['Times_New_Roman']">
       {/* ---------- heading ---------- */}
-      <h1 className="text-3xl sm:text-4xl font-bold text-center text-[#900001]">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center text-[#900001] animate-fadeInUp">
         Submission&nbsp;Guidelines
       </h1>
       <div className="h-1 w-32 bg-[#900001] rounded mx-auto my-6" />
