@@ -9,7 +9,7 @@ const About = () => {
     { label: 'ISSN',                 value: '2394-997X' },
     { label: 'E-ISSN',               value: 'Applied For'},
     { label: 'Publisher',            value: 'Dr. Vijay Bahadur Pandey' },
-    { label: 'Chief Editor',         value: 'XXXXX' },
+    { label: 'Chief Editor',         value: 'Animesh Kumar' },
     { label: 'Copyright',            value: 'Lex Revolution' },
     { label: 'Starting Year',        value: '2015' },
     { label: 'Subject',              value: 'Social Science' },
