@@ -24,10 +24,6 @@ const Editor = () => {
             title:'Director (I/C) SVKM’s NMIMS Chandigarh Campus',
         },
         {
-            name:'	Dr. Andrea Zappalaglio',
-            title:'Associate Professor, I.P. Laws, University of Leeds (U.K.)',
-        },
-        {
             name:'	Dr. Deepak Kumar Srivastava',
             title:'Associate Professor, Dean & Registrar (I/C), HNLU, Raipur',
         },
@@ -73,11 +69,11 @@ const Editor = () => {
         },
         {
             name:'	Dr. Pranshul Pathak',
-            title:'Asst. Professor of Law, Amity University Haryana, Gurugram',
+            title:'Associate Professor of Law, Amity University Haryana, Gurugram',
         },
         {
             name:'	Dr. Bineet Kedia',
-            title:'Asst. Professor of Law, KIIT University, Bhubaneswar',
+            title:'Associate Professor of Law, KIIT University, Bhubaneswar',
         },
         {
             name:'	Dr. Mudra Singh',
@@ -109,7 +105,7 @@ const Editor = () => {
         },
         {
             name:'	Dr. Aparajita Singh',
-            title:'Asst. Professor of Law, UPES, Dehradun',
+            title:'Associate Professor of Law, UPES, Dehradun',
         },
         {
             name:'	Dr. Rishi Raj Bhardwaj',
@@ -117,7 +113,7 @@ const Editor = () => {
         },
         {
             name:'	Dr. Shilpika Pandey',
-            title:'Asst. Professor of Law, D.Y Patil International University, Pune',
+            title:'Asst. Professor of Law, D.Y. Patil International University, Pune',
         },
       ];
 
@@ -128,7 +124,7 @@ const Editor = () => {
         },
         {
             name:'Harsha Manav',
-            title:'Advocate',
+            title:'Deputy Manager Regulatory - Legal Greenko Group',
         },
         {
             name:'Shivam Kumar Gupta',
@@ -231,7 +227,7 @@ const Editor = () => {
                             },
                             {
                                 name: 'Dr. Sumit Agarwal',
-                                title: 'Assistant Professor',
+                                title: 'Associate Professor',
                                 university: 'The Assam Royal Global University, Guwahati',
                                 email: 'sumit_agarwal2008@rediff.com',
                                 img: '/Images/Dr. sumit.png',

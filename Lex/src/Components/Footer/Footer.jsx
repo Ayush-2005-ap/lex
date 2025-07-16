@@ -28,7 +28,7 @@ export default function Footer() {
                                 Address
                             </h2>
                             <h1 className="text-base font-medium text-center text-[#a90c0c]">
-                                Dr Vijay Bahadur Pandey
+                                Dr. Vijay Bahadur Pandey
                             </h1>
                             <p className="mt-2 text-sm text-center text-gray-700 leading-relaxed">
                                 Rimjhim Smriti, South NH‑922, At PO Nuaon<br />
