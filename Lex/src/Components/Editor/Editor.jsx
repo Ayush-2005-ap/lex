@@ -4,141 +4,141 @@ const Editor = () => {
 
     const advisory = [
         {
-          name: 'Prof. (Dr.) Arun Gupto',
-          title: 'Professor of English, IACER, Pokhra University, Kathmandu',
+            name: 'Prof. (Dr.) Arun Gupto',
+            title: 'Professor of English, IACER, Pokhra University, Kathmandu',
         },
         {
-          name: 'Dr. Andrea Zappalaglio',
-          title: 'Associate Professor, Intellectual Property Law, University of Leeds (U.K.)',
+            name: 'Dr. Andrea Zappalaglio',
+            title: 'Associate Professor, Intellectual Property Law, University of Leeds (U.K.)',
         },
         {
-          name: 'Prof. (Dr.) Manirani Dasgupta',
-          title: 'Professor of Law, University of Calcutta, Kolkata',
+            name: 'Prof. (Dr.) Manirani Dasgupta',
+            title: 'Professor of Law, University of Calcutta, Kolkata',
         },
         {
             name: 'Prof. (Dr.) Pradeep Kulshrestha',
             title: 'Dean & Professor of Law, SoL, Bennett University, G. Noida',
         },
         {
-            name:'	Prof. (Dr.) Rashmi Nagpal',
-            title:'Director (I/C) SVKM’s NMIMS Chandigarh Campus',
+            name: '	Prof. (Dr.) Rashmi Nagpal',
+            title: 'Director (I/C) SVKM’s NMIMS Chandigarh Campus',
         },
         {
-            name:'	Dr. Deepak Kumar Srivastava',
-            title:'Associate Professor, Dean & Registrar (I/C), HNLU, Raipur',
+            name: '	Dr. Deepak Kumar Srivastava',
+            title: 'Associate Professor, Dean & Registrar (I/C), HNLU, Raipur',
         },
         {
-            name:'	Dr. Nawal Kishor Mishra',
-            title:'Associate Professor of Law, Faculty of Law, BHU, Varanasi',
+            name: '	Dr. Nawal Kishor Mishra',
+            title: 'Associate Professor of Law, Faculty of Law, BHU, Varanasi',
         },
         {
-            name:'	Dr. Santosh K. Tripathi',
-            title:'Associate Professor, Amity University Haryana, Gurugram',
+            name: '	Dr. Santosh K. Tripathi',
+            title: 'Associate Professor, Amity University Haryana, Gurugram',
         },
         {
-            name:'	Dr. Sangeeta Sharma',
-            title:'Human Rights & Social Activist, Lucknow',
+            name: '	Dr. Sangeeta Sharma',
+            title: 'Human Rights & Social Activist, Lucknow',
         },
         {
-            name:'	Mr. Ajay Kumar Mishra',
-            title:'Advocate, Calcutta High Court, Kolkata.',
+            name: '	Mr. Ajay Kumar Mishra',
+            title: 'Advocate, Calcutta High Court, Kolkata.',
         },
         {
-            name:'	Dr. Ritu Agarwal',
-            title:'Asst. Professor of Sociology, Lucknow',
+            name: '	Dr. Ritu Agarwal',
+            title: 'Asst. Professor of Sociology, Lucknow',
         },
         {
-            name:'	Md. Abdul Hafiz Gandhi',
-            title:'Social & Political Rights Activist, Lucknow',
+            name: '	Md. Abdul Hafiz Gandhi',
+            title: 'Social & Political Rights Activist, Lucknow',
         },
         {
-            name:'	Mr. Siddharth Harsh',
-            title:'Advocate, Patna High Court, Patna',
+            name: '	Mr. Siddharth Harsh',
+            title: 'Advocate, Patna High Court, Patna',
         },
         {
-            name:'	Dr. Suresh M. Tripathi',
-            title:'Asst. Professor of Law, Chhattisgarh Academy of Administration, Raipur',
+            name: '	Dr. Suresh M. Tripathi',
+            title: 'Asst. Professor of Law, Chhattisgarh Academy of Administration, Raipur',
         },
         {
-            name:'	Dr. Bhanu Pratap',
-            title:'Asst. Professor of Law, University of Lucknow',
+            name: '	Dr. Bhanu Pratap',
+            title: 'Asst. Professor of Law, University of Lucknow',
         },
         {
-            name:'	Dr. Ankit Awasthi',
-            title:'Head, Centre for WTO/WIPO Studies (SLT), HNLU, Raipur',
+            name: '	Dr. Ankit Awasthi',
+            title: 'Head, Centre for WTO/WIPO Studies (SLT), HNLU, Raipur',
         },
         {
-            name:'	Dr. Pranshul Pathak',
-            title:'Associate Professor of Law, Amity University Haryana, Gurugram',
+            name: '	Dr. Pranshul Pathak',
+            title: 'Associate Professor of Law, Amity University Haryana, Gurugram',
         },
         {
-            name:'	Dr. Bineet Kedia',
-            title:'Associate Professor of Law, KIIT University, Bhubaneswar',
+            name: '	Dr. Bineet Kedia',
+            title: 'Associate Professor of Law, KIIT University, Bhubaneswar',
         },
         {
-            name:'	Dr. Mudra Singh',
-            title:'Asst. Professor of Law, Amity Law School, Lucknow',
+            name: '	Dr. Mudra Singh',
+            title: 'Asst. Professor of Law, Amity Law School, Lucknow',
         },
         {
-            name:'	Mrs. Annpurna Sinha',
-            title:'Advocate, Allahabad High Court, Lucknow',
+            name: '	Mrs. Annpurna Sinha',
+            title: 'Advocate, Allahabad High Court, Lucknow',
         },
         {
-            name:'	Dr. Neha Mishra',
-            title:'Asst. Professor of Law, Amity University Haryana, Gurugram',
+            name: '	Dr. Neha Mishra',
+            title: 'Asst. Professor of Law, Amity University Haryana, Gurugram',
         },
         {
-            name:'	Dr. Mayank Dubey',
-            title:'Advocate, Allahabad High Court, Prayagraj',
+            name: '	Dr. Mayank Dubey',
+            title: 'Advocate, Allahabad High Court, Prayagraj',
         },
         {
-            name:'	Mr. Pratik Mishra',
-            title:'Advocate, Patna High Court, Patna',
+            name: '	Mr. Pratik Mishra',
+            title: 'Advocate, Patna High Court, Patna',
         },
         {
-            name:'	Mr. Nishith Pandit',
-            title:'Advocate, Gujarat High Court, Ahmedabad',
+            name: '	Mr. Nishith Pandit',
+            title: 'Advocate, Gujarat High Court, Ahmedabad',
         },
         {
-            name:'	Dr. Sarvesh K. Shahi',
-            title:'Asst. Professor of Law, KIIT University, Bhubaneswar',
+            name: '	Dr. Sarvesh K. Shahi',
+            title: 'Asst. Professor of Law, KIIT University, Bhubaneswar',
         },
         {
-            name:'	Dr. Aparajita Singh',
-            title:'Associate Professor of Law, UPES, Dehradun',
+            name: '	Dr. Aparajita Singh',
+            title: 'Associate Professor of Law, UPES, Dehradun',
         },
         {
-            name:'	Dr. Rishi Raj Bhardwaj',
-            title:'Asst. Professor of Law, Mahindra University, Hyderabad',
+            name: '	Dr. Rishi Raj Bhardwaj',
+            title: 'Asst. Professor of Law, Mahindra University, Hyderabad',
         },
         {
-            name:'	Dr. Shilpika Pandey',
-            title:'Asst. Professor of Law, D.Y. Patil International University, Pune',
+            name: '	Dr. Shilpika Pandey',
+            title: 'Asst. Professor of Law, D.Y. Patil International University, Pune',
         },
-      ];
+    ];
 
-      const associate = [
+    const associate = [
         {
             name: 'Ashish Sharma',
-            title:'Advocate',
+            title: 'Advocate',
         },
         {
-            name:'Harsha Manav',
-            title:'Deputy Manager Regulatory - Legal Greenko Group',
+            name: 'Harsha Manav',
+            title: 'Deputy Manager Regulatory - Legal Greenko Group',
         },
         {
-            name:'Shivam Kumar Gupta',
-            title:'Doctoral Candidate, Bennett University',
+            name: 'Shivam Kumar Gupta',
+            title: 'Doctoral Candidate, Bennett University',
         },
         {
-            name:'Sandhya Sharma',
-            title:'Doctoral Candidate, Bennett University',
+            name: 'Sandhya Sharma',
+            title: 'Doctoral Candidate, Bennett University',
         },
         {
-            name:'Gaurav Yadav',
-            title:'Asst. Professor, ICFAI University, Dehradun',
+            name: 'Gaurav Yadav',
+            title: 'Asst. Professor, ICFAI University, Dehradun',
         },
-      ];
+    ];
 
     return (
         <div className="p-4 bg-white">
@@ -175,7 +175,7 @@ const Editor = () => {
                         <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Animesh Kumar</h2>
                         <h3 className="text-[#a90c0c] font-[cursive] text-lg">Editor-in-Chief</h3>
                         <h4 className="text-black text-sm font-bold">animesh.kumar@anagh.in</h4>
-                        <p className="text-center text-sm text-black">Advocate , Patna High Court , Director , Anagh Forum for Sustainable Outreach</p>
+                        <p className="text-center text-sm text-black">Advocate, Patna High Court, Director, Anagh Forum for Sustainable Outreach</p>
                     </div>
 
                     {/* Executive */}
@@ -186,7 +186,7 @@ const Editor = () => {
                         <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Mayuri Gupta</h2>
                         <h3 className="text-[#a90c0c] font-[cursive] text-lg">Chief Executive Editor</h3>
                         <h4 className="text-black text-sm font-bold">mayuri.gupta@vidhilegalpolicy.in</h4>
-                        <p className="text-center text-sm text-black">MKB Senior Resident Fellow, Vidhi Centre for Legal Policy</p>
+                        <p className="text-center text-sm text-black">MKB Senior Resident Fellow, Vidhi Centre for Legal Policy, New Delhi</p>
                     </div>
                 </div>
 
@@ -242,7 +242,7 @@ const Editor = () => {
                             {
                                 name: 'Dr. Preeti Singh',
                                 title: 'Assistant Professor',
-                                university: 'Bennett University, Greater Noida',
+                                university: 'University of Delhi, Delhi',
                                 email: 'singh.preeti1092@gmail.com',
                                 img: '/Images/dr.preeti-final.jpg',
                             },
@@ -274,13 +274,6 @@ const Editor = () => {
                                 email: '7rachitsharma@gmail.com',
                                 img: '/Images/Rachit-Sharma.jpg',
                             },
-                            {
-                                name: 'Snigdha Gupta',
-                                title: 'Data Protection & AI Law Consultant',
-                                university: 'Kolkata',
-                                email: 'snigdhagupta0@gmail.com',
-                                img: '/Images/Snigdha-final.jpg'
-                            },
                         ].map((editor, idx) => (
                             <div key={idx} className="min-w-[300px] flex flex-col items-center bg-white rounded p-4 shadow hover:scale-105 hover:bg-gray-300 transition duration-300">
                                 <img src={editor.img} alt={editor.name} className="w-full rounded" />
@@ -298,15 +291,7 @@ const Editor = () => {
                     <h2 className="text-[40px] text-[#a90c0c] font-semibold">Associate Editors</h2>
                     <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
                     <div className="flex lg:grid gap-6 lg:grid-cols-3 overflow-x-auto pb-6">
-                        {/* {[
-                            'Ashish Sharma',
-                            'Harsha Manav',
-                            'Shivam Kumar Gupta',
-                            'Sandhya Sharma',
-                            'Gaurav Yadav',
-                        ].map((name, idx) => (
-                            <h3 key={idx} className="flex-shrink-0 lg:flex-shrink lg:w-auto w-72 bg-white rounded p-4 shadow text-center hover:scale-105 hover:bg-gray-300 transition duration-300">{name}</h3>
-                        ))} */}
+
                         {associate.map((member, idx) => (
                             <div
                                 key={idx}
@@ -322,14 +307,64 @@ const Editor = () => {
                     </div>
                 </div>
 
-                
+                {/* Managing Editor */}
+                <div className="text-center mt-10">
+                    <h2 className="text-[40px] text-[#a90c0c] font-semibold">Managing Editors</h2>
+                    <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
+
+                    {/* Wrap the editors in a responsive flexbox */}
+                    <div className="flex justify-center">
+                        <div
+                            className={`${[
+                                {
+                                    name: "Singdha Gupta",
+                                    title: "Data Protection & AI Law Consultant",
+                                    university: "Kolkata",
+                                    email: "snigdhagupta0@gmail.com",
+                                    img: "/Images/Snigdha-final.jpg",
+                                },
+                            ].length === 1
+                                ? "bg-gray-100 p-6 rounded-lg w-fit"
+                                : "bg-gray-400 p-4 rounded shadow-inner overflow-x-auto whitespace-nowrap flex gap-6 pb-6"
+                                }`}
+                        >
+                            {[
+                                {
+                                    name: "Singdha Gupta",
+                                    title: "Data Protection & AI Law Consultant",
+                                    university: "Kolkata",
+                                    email: "snigdhagupta0@gmail.com",
+                                    img: "/Images/Snigdha-final.jpg",
+                                },
+                            ].map((editor, idx) => (
+                                <div
+                                    key={idx}
+                                    className="w-[250px] flex-shrink-0 flex flex-col items-center bg-white rounded-lg p-4 shadow hover:scale-105 hover:bg-gray-300 transition duration-300"
+                                >
+                                    <img
+                                        src={editor.img}
+                                        alt={editor.name}
+                                        className="w-[220px] h-[220px] object-cover rounded-full border-4 border-gray-300"
+                                    />
+                                    <h3 className="text-[#11ACD5] font-semibold text-lg mt-4">{editor.name}</h3>
+                                    <p className="text-base text-black text-center">{editor.title}</p>
+                                    <p className="text-sm text-black text-center">{editor.university}</p>
+                                    <p className="text-sm text-black mt-1">{editor.email}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+
+
 
                 {/* Advisory Board */}
                 <div className="mt-10 text-center">
                     <h2 className="text-[40px] text-[#a90c0c] font-semibold">Advisory Board</h2>
                     <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
 
-                    
+
 
                     {/* Cards: scroll on mobile, wrap into grid on lg screens */}
                     <div className="flex lg:grid gap-6 lg:grid-cols-3 overflow-x-auto pb-6">
