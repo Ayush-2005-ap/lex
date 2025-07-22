@@ -115,6 +115,10 @@ const Editor = () => {
             name: '	Dr. Shilpika Pandey',
             title: 'Asst. Professor of Law, D.Y. Patil International University, Pune',
         },
+        {
+            name:'Dr. Soma Dey Sarkar',
+            title:' Assistant Professor, North Bengal University'
+        },
     ];
 
     const associate = [
@@ -286,27 +290,6 @@ const Editor = () => {
                     </div>
                 </div>
 
-                {/* Associate Editors */}
-                <div className="mt-10 text-center">
-                    <h2 className="text-[40px] text-[#a90c0c] font-semibold">Associate Editors</h2>
-                    <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
-                    <div className="flex lg:grid gap-6 lg:grid-cols-3 overflow-x-auto pb-6">
-
-                        {associate.map((member, idx) => (
-                            <div
-                                key={idx}
-                                className="flex-shrink-0 lg:flex-shrink lg:w-auto w-72 bg-white rounded p-4 shadow text-center hover:scale-105 hover:bg-gray-300 transition duration-300"
-                            >
-                                <h3 className="text-[#11ACD5] font-bold text-lg break-words">{member.name}</h3>
-                                <h4 className="text-black font-semibold text-base mt-1 break-words">
-                                    {member.title}
-                                </h4>
-
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
                 {/* Managing Editor */}
                 <div className="text-center mt-10">
                     <h2 className="text-[40px] text-[#a90c0c] font-semibold">Managing Editors</h2>
@@ -317,7 +300,7 @@ const Editor = () => {
                         <div
                             className={`${[
                                 {
-                                    name: "Singdha Gupta",
+                                    name: "Snigdha Gupta",
                                     title: "Data Protection & AI Law Consultant",
                                     university: "Kolkata",
                                     email: "snigdhagupta0@gmail.com",
@@ -330,7 +313,7 @@ const Editor = () => {
                         >
                             {[
                                 {
-                                    name: "Singdha Gupta",
+                                    name: "Snigdha Gupta",
                                     title: "Data Protection & AI Law Consultant",
                                     university: "Kolkata",
                                     email: "snigdhagupta0@gmail.com",
@@ -355,6 +338,30 @@ const Editor = () => {
                         </div>
                     </div>
                 </div>
+
+
+                {/* Associate Editors */}
+                <div className="mt-10 text-center">
+                    <h2 className="text-[40px] text-[#a90c0c] font-semibold">Executive Editors</h2>
+                    <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
+                    <div className="flex lg:grid gap-6 lg:grid-cols-3 overflow-x-auto pb-6">
+
+                        {associate.map((member, idx) => (
+                            <div
+                                key={idx}
+                                className="flex-shrink-0 lg:flex-shrink lg:w-auto w-72 bg-white rounded p-4 shadow text-center hover:scale-105 hover:bg-gray-300 transition duration-300"
+                            >
+                                <h3 className="text-[#11ACD5] font-bold text-lg break-words">{member.name}</h3>
+                                <h4 className="text-black font-semibold text-base mt-1 break-words">
+                                    {member.title}
+                                </h4>
+
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                
 
 
 
