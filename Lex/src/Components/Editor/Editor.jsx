@@ -292,7 +292,7 @@ const Editor = () => {
 
                 {/* Managing Editor */}
                 <div className="text-center mt-10">
-                    <h2 className="text-[40px] text-[#a90c0c] font-semibold">Managing Editors</h2>
+                    <h2 className="text-[40px] text-[#a90c0c] font-semibold">Managing Editor</h2>
                     <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
 
                     {/* Wrap the editors in a responsive flexbox */}
