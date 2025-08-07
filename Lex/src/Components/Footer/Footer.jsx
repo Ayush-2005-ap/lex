@@ -20,11 +20,29 @@ export default function Footer() {
                         </Link>
                     </div>
 
+                    {/* Preliminary Details of Journal */}
+                    <div className='flex flex-col sm:flex-row gap-8 pr-8 ml-auto'>
+                        <div className='max-w-xs'>
+                            <h2 className="mb-4 text-sm font-bold text-gray-900 uppercase text-center">
+                                Preliminary Details of Journal
+                            </h2>
+                            <h1 className='text-base font-medium text-center text-[#a90c0c]'>
+                            Started in: 2015
+                            </h1>
+                            <p className='mt-2 text-sm text-center text-gray-700 leading-relaxed'>
+                                Frequency of Publication: Quarterly <br />
+                                Format: Print & Online <br />
+                                Subject: Social Science <br />
+                                Language of Publication: English
+                            </p>
+                        </div>
+                    </div>
+
                     {/* ---------- 2) Address + Contact (right) ---------- */}
                     <div className="flex flex-col sm:flex-row gap-8 pr-8 ml-auto">
                         {/* Address card */}
                         <div className="max-w-xs">
-                            <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase text-center">
+                            <h2 className="mb-4 text-sm font-bold text-gray-900 uppercase text-center">
                                 Address
                             </h2>
                             <h1 className="text-base font-medium text-center text-[#a90c0c]">
@@ -38,7 +56,7 @@ export default function Footer() {
 
                         {/* Contact‑Us card (rightmost) */}
                         <div className="max-w-xs">
-                            <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase text-center">
+                            <h2 className="mb-4 text-sm font-bold text-gray-900 uppercase text-center">
                                 Contact&nbsp;Us
                             </h2>
                             <p className="text-sm text-center text-gray-700 leading-relaxed">

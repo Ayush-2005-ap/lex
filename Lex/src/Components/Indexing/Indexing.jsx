@@ -7,7 +7,7 @@ const Indexing = () => {
       { src: '/Images/Academia-2.png',           title: 'Academia' },
       { src: '/Images/1024px-ResearchGate (1).png', title: 'Research Gate' },
       { src: '/Images/Scribd (1).png',           title: 'Scribd' },
-      { src: '/Images/ISSN_logo (1).png',        title: 'ISSN' },
+      // { src: '/Images/ISSN_logo (1).png',        title: 'ISSN' },
       { src: '/Images/Google-Scholar (1).png',   title: 'Google Scholar' },
   ];
 
