@@ -14,7 +14,7 @@ const About = () => {
     { label: 'Starting Year',        value: '2015' },
     { label: 'Subject',              value: 'Social Science' },
     { label: 'Language',             value: 'English' },
-    { label: 'Publication Format',   value: 'Print / Online' },
+    { label: 'Publication Format',   value: 'Print & Online' },
     { label: 'Phone No.',            value: 'XXXXX' },
     { label: 'Email Id',             value: 'editor.lexrevolution@gmail.com' },
     { label: 'Mobile No.',           value: 'XXXXX' },
