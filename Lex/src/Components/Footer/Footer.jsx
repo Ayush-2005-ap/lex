@@ -26,7 +26,7 @@ export default function Footer() {
                             <h2 className="mb-4 text-sm font-bold text-gray-900 uppercase text-center">
                                 Preliminary Details of Journal
                             </h2>
-                            <h1 className='text-base  text-center text-black'>
+                            <h1 className='text-sm text-center text-black'>
                             Started in: 2015
                             </h1>
                             <p className='mt-2 text-sm text-center text-gray-700 leading-relaxed'>
