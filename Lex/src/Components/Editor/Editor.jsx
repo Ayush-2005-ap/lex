@@ -179,8 +179,9 @@ const Editor = () => {
                         <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Animesh Kumar</h2>
                         <h3 className="text-[#a90c0c] font-[cursive] text-lg">Editor-in-Chief</h3>
                         <h4 className="text-black text-sm font-bold">animesh@ccs.in</h4>
-                        <p className="text-center text-sm text-black">Senior Legal Research Consultant</p>
+                        <p className="text-center text-sm text-black">Advocate & Senior Legal Research Consultant</p>
                         <p className="text-center text-sm text-black">Policy Research Outreach</p>
+                        <p className='text-center text-sm text-black'>Centre for Civil Society, A-69 <br />Hauz Khas, New Delhi</p>
                     </div>
 
                     {/* Executive */}
@@ -191,8 +192,9 @@ const Editor = () => {
                         <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Mayuri Gupta</h2>
                         <h3 className="text-[#a90c0c] font-[cursive] text-lg">Chief Executive Editor</h3>
                         <h4 className="text-black text-sm font-bold">mayuri.gupta@vidhipolicy.in</h4>
-                        <p className="text-center text-sm text-black">Senior Resident Fellow</p>
+                        <p className="text-center text-sm text-black">Advocate & Resident Fellow</p>
                         <p className="text-center text-sm text-black">Charkha, Constitutional Law Research</p>
+                        <p className='text-center text-sm text-black'>Vidhi Centre for Legal Policy, A-232 <br />Defence Colony, New Delhi</p>
                     </div>
                 </div>
 
@@ -206,99 +208,135 @@ const Editor = () => {
                             {
                                 name: 'Dr. Jayanta Ghosh',
                                 title: 'Assistant Professor & Coordinator',
-                                university: ' CRSGPP, WBNUJS, Kolkata',
-                                email: 'jayanta.crsgpp@nujs.edu',
+                                university: 'WBNUJS, Kolkata',
+                                email: 'Email: jayanta.crsgpp@nujs.edu',
                                 img: '/Images/jayanta-ghosh.jpg',
                                 department: 'The Centre for Regulatory Studies',
+                                department2: "Governance and Public Policy",
+                                Address1: " WBNUJS, 12 LB Block, Sector III",
+                                Address2: "Salt Lake City, Kolkata, West Bengal",
                             },
                             {
                                 name: 'Dr. Ankita Sharma',
                                 title: 'Associate Professor',
                                 university: 'G.D. Goenka University, Gurugram',
-                                email: 'ankita.sharma@gdgu.org',
+                                email: 'Email:ankita.sharma@gdgu.org',
                                 department: "School of Law",
                                 img: '/Images/Ankita-Sharma.jpg',
+                                department2: "",
+                                Address1: "Sohna Gurgaon Road Sohna",
+                                Address2: "Haryana",
                             },
                             {
                                 name: 'Juhi Singh',
                                 title: 'Legal Counsel',
                                 university: 'Penguin Random House India',
-                                email: 'juhi248@gmail.com',
+                                email: 'Email:juhi248@gmail.com',
                                 department: "Review & Proofreading",
                                 img: '/Images/juhi singh.jpg',
+                                department2: "",
+                                Address1: "Penguin Random House India Pvt. Ltd",
+                                Address2: "Mumbai",
                             },
                             {
                                 name: 'Dr. Avnish Singh',
                                 title: 'Assistant Professor',
                                 university: 'Bennett University, Greater Noida',
-                                email: 'avnish.singh@bennett.edu.in',
+                                email: 'Email:avnish.singh@bennett.edu.in',
                                 department: "School of Law",
                                 img: '/Images/avnishsir-final.jpg',
+                                department2: "",
+                                Address1: "Bennett University, Plot#8-11, Tech Zone-2",
+                                Address2: "Greater Noida, Uttar Pradesh",
                             },
                             {
                                 name: 'Dr. Sumit Agarwal',
                                 title: 'Associate Professor',
                                 university: 'The Assam Royal Global University, Guwahati',
-                                email: 'sagarwala@rgu.ac',
+                                email: 'Email:sagarwala@rgu.ac',
                                 department: "School of Law",
                                 img: '/Images/Dr. sumit.png',
+                                department2: "",
+                                Address1: "The Assam Royal Global University, NH-27",
+                                Address2: "Betkuchi, Guwahati, Assam ",
                             },
                             {
                                 name: 'Dr. Shailesh Mishra',
                                 title: 'Assistant Professor',
                                 university: 'Christ University, Ghaziabad',
-                                email: 'shailesh.mishra@christuniversity.in',
+                                email: 'Email:shailesh.mishra@christuniversity.in',
                                 department: "School of Law",
                                 img: '/Images/Dr. shailesh.png',
+                                department2: "",
+                                Address1: "Christ University, Nandgram Rd",
+                                Address2: "Ghaziabad, Uttar Pradesh",
                             },
                             {
                                 name: 'Dr. Preeti Singh',
                                 title: 'Assistant Professor',
                                 university: 'Bennett University, Greater Noida',
-                                email: 'preeti.singh@bennett.edu.in',
+                                email: 'Email:preeti.singh@bennett.edu.in',
                                 department: "School of Law",
                                 img: '/Images/dr.preeti-final.jpg',
+                                department2: "",
+                                Address1: "Bennett University, Plot#8-11, Tech Zone-2",
+                                Address2: "Greater Noida, Uttar Pradesh",
                             },
                             {
                                 name: 'Aprajita Kumari',
                                 title: 'Advocate',
                                 university: 'Toronto, Ontario, Canada',
-                                email: 'aparajitaktr@gmail.com',
+                                email: 'Email:aparajitaktr@gmail.com',
                                 department: "Legal Service",
                                 img: '/Images/Aprajita.jpg',
+                                department2: "",
+                                Address1: "Zahid Law Firm, 18-695 Markham Rd",
+                                Address2: "Scarborough ON M1H2A5, Canada",
                             },
                             {
                                 name: 'Dr. Ravi Prakash Chaubey',
                                 title: 'Visiting Faculty (Indic Studies)',
                                 university: 'Gurugram University, Gurugram',
-                                email: 'ravipchaube@gmail.com',
+                                email: 'Email:ravipchaube@gmail.com',
                                 department: 'Dept. of Indic Studies',
                                 img: '/Images/Ravi-prakash-chaubey.jpg',
+                                department2: "",
+                                Address1: "Gurugram University, Opp. Presidium School",
+                                Address2: "Gurugram, Haryana ",
                             },
                             {
                                 name: 'Dr. Bhupali Saikia',
                                 title: 'Assistant Professor',
                                 university: 'The Assam Royal Global University, Guwahati',
-                                email: 'bsaikia1@rgu.ac',
+                                email: 'Email:bsaikia1@rgu.ac',
                                 department: "School of Law",
                                 img: '/Images/Bhupali-Saikia.jpg',
+                                department2: "",
+                                Address1: "The Assam Royal Global University",
+                                Address2: "Betkuchi, Guwahati, Assam "
                             },
                             {
                                 name: 'Rachit Sharma',
                                 title: 'Assistant Professor ',
                                 university: 'IILM University, Greater Noida',
-                                email: 'rachit.sharma@iilm.ac.in',
+                                email: 'Email:rachit.sharma@iilm.ac.in',
                                 department: "School of Law",
                                 img: '/Images/Rachit-Sharma.jpg',
+                                department2: "",
+                                Address1: "IILM University, Knowledge Park II",
+                                Address2: "Greater Noida, Uttar Pradesh",
                             },
                         ].map((editor, idx) => (
                             <div key={idx} className="min-w-[300px] flex flex-col items-center bg-white rounded p-4 shadow hover:scale-105 hover:bg-gray-300 transition duration-300">
                                 <img src={editor.img} alt={editor.name} className="w-full rounded" />
                                 <h3 className="text-[#11ACD5] font-semibold text-base mt-3">{editor.name}</h3>
-                                <p className="text-lg text-black text-center">{editor.title}</p>
+                                <p className="text-sm text-black text-center">{editor.title}</p>
                                 <p className='text-sm text-black text-center'>{editor.department}</p>
+                                <p className='text-sm text-black text-center'>{editor.department2}</p>
                                 <p className='text-sm text-black text-center'>{editor.university}</p>
-                                <p className="text-sm text-black">{editor.email}</p>
+                                <p className="text-sm text-black font-semibold">{editor.email}</p>
+                                <p className='text-sm text-black text-center'>{editor.Address1}</p>
+                                <p className='text-sm text-black text-center'>{editor.Address2}</p>
                             </div>
                         ))}
                     </div>
