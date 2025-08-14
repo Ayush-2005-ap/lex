@@ -192,7 +192,7 @@ const Editor = () => {
                         <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Mayuri Gupta</h2>
                         <h3 className="text-[#a90c0c] font-[cursive] text-lg">Chief Executive Editor</h3>
                         <h4 className="text-black text-sm font-bold">mayuri.gupta@vidhipolicy.in</h4>
-                        <p className="text-center text-sm text-black">Advocate & Resident Fellow</p>
+                        <p className="text-center text-sm text-black">Advocate & Senior Resident Fellow</p>
                         <p className="text-center text-sm text-black">Charkha, Constitutional Law Research</p>
                         <p className='text-center text-sm text-black'>Vidhi Centre for Legal Policy, A-232 <br />Defence Colony, New Delhi</p>
                     </div>
