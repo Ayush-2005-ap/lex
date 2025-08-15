@@ -172,7 +172,7 @@ const Editor = () => {
                 {/* Chief & Executive Editor */}
                 <div className="flex flex-wrap justify-center items-center gap-10 p-5 bg-white rounded shadow-md">
                     {/* Chief */}
-                    <div className="flex flex-col items-center p-4 w-[250px] bg-white rounded shadow-md hover:scale-105 hover:bg-gray-400 transition duration-300">
+                    <div className="flex flex-col items-center p-4 w-[300px] bg-white rounded shadow-md hover:scale-105 hover:bg-gray-400 transition duration-300">
                         <a href="https://www.linkedin.com/in/advanimeshkumar/" target="_blank" rel="noopener noreferrer">
                             <img src="/Images/editor-in-chief.jpg" alt="editor-in-chief" className="w-full rounded shadow-md" />
                         </a>
@@ -185,7 +185,7 @@ const Editor = () => {
                     </div>
 
                     {/* Executive */}
-                    <div className="flex flex-col items-center p-4 w-[250px] bg-white rounded shadow-md hover:scale-105 hover:bg-gray-400 transition duration-300">
+                    <div className="flex flex-col items-center p-4 w-[300px] bg-white rounded shadow-md hover:scale-105 hover:bg-gray-400 transition duration-300">
                         <a href="https://www.linkedin.com/in/mayuri-gupta-52064160/" target="_blank" rel="noopener noreferrer">
                             <img src="/Images/executive-editor.jpg" alt="executive-editor" className="w-full rounded shadow-md" />
                         </a>
@@ -201,7 +201,7 @@ const Editor = () => {
                 {/* Editors */}
                 <div className="text-center mt-10">
                     <h2 className="text-[40px] text-[#a90c0c] font-semibold">Editors</h2>
-                    <div className="w-[20%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
+                    <div className="w-[15%] h-[4px] bg-[#806262] mx-auto my-4 rounded"></div>
 
                     <div className="bg-gray-400 p-4 rounded shadow-inner overflow-x-auto whitespace-nowrap flex gap-6 pb-6">
                         {[
@@ -244,7 +244,7 @@ const Editor = () => {
                                 university: 'Bennett University, Greater Noida',
                                 email: 'Email:avnish.singh@bennett.edu.in',
                                 department: "School of Law",
-                                img: '/Images/avnishsir-final.jpg',
+                                img: '/Images/avnishsir-final2_Edited.jpg',
                                 department2: "",
                                 Address1: "Bennett University, Plot#8-11, Tech Zone-2",
                                 Address2: "Greater Noida, Uttar Pradesh",
@@ -288,7 +288,7 @@ const Editor = () => {
                                 university: 'Toronto, Ontario, Canada',
                                 email: 'Email:aparajitaktr@gmail.com',
                                 department: "Legal Service",
-                                img: '/Images/Aprajita.jpg',
+                                img: '/Images/Aprajita_removebg_preview.png',
                                 department2: "",
                                 Address1: "Zahid Law Firm, 18-695 Markham Rd",
                                 Address2: "Scarborough ON M1H2A5, Canada",
@@ -327,9 +327,9 @@ const Editor = () => {
                                 Address2: "Greater Noida, Uttar Pradesh",
                             },
                         ].map((editor, idx) => (
-                            <div key={idx} className="min-w-[300px] flex flex-col items-center bg-white rounded p-4 shadow hover:scale-105 hover:bg-gray-300 transition duration-300">
+                            <div key={idx} className="min-w-[280px] flex flex-col items-center bg-white rounded p-4 shadow hover:scale-105 hover:bg-gray-300 transition duration-300">
                                 <img src={editor.img} alt={editor.name} className="w-full rounded" />
-                                <h3 className="text-[#11ACD5] font-semibold text-base mt-3">{editor.name}</h3>
+                                <h3 className="text-[#11ACD5] font-semibold text-base mt-4 p-2">{editor.name}</h3>
                                 <p className="text-sm text-black text-center">{editor.title}</p>
                                 <p className='text-sm text-black text-center'>{editor.department}</p>
                                 <p className='text-sm text-black text-center'>{editor.department2}</p>
