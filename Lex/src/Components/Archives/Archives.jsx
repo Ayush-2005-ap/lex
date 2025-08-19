@@ -204,12 +204,12 @@ const Archives = () => {
     },
     {
       id: 41,
-      volume: "Vol XI(1) 2025",
+      volume: "Vol XI(1) JAN-MAR 2025",
       pdf: "/Pdfs/LR_(1)_2025.pdf",
     },
     {
       id: 42,
-      volume: "Vol XI(2) 2025 [Current Published Issues]",
+      volume: "Vol XI(2) APR-JUN [Current Published Issues] 2025",
       pdf: "/Pdfs/LR_XI_(2)_2025.pdf",
     },
   ];
