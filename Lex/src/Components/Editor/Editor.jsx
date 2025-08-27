@@ -16,6 +16,10 @@ const Editor = () => {
             title: 'Professor of Law, University of Calcutta, Kolkata',
         },
         {
+            name: 'Dr Sudarsan Verma',
+            title: 'Professor of Law, BBAU, Lucknow',
+        },
+        {
             name: 'Prof. (Dr.) Pradeep Kulshrestha',
             title: 'Dean & Professor of Law, SoL, Bennett University, G. Noida',
         },
@@ -40,20 +44,12 @@ const Editor = () => {
             title: 'Human Rights & Social Activist, Lucknow',
         },
         {
-            name: '	Mr. Ajay Kumar Mishra',
-            title: 'Advocate, Calcutta High Court, Kolkata.',
-        },
-        {
             name: '	Dr. Ritu Agarwal',
             title: 'Asst. Professor of Sociology, Lucknow',
         },
         {
-            name: '	Md. Abdul Hafiz Gandhi',
-            title: 'Social & Political Rights Activist, Lucknow',
-        },
-        {
-            name: '	Mr. Siddharth Harsh',
-            title: 'Advocate, Patna High Court, Patna',
+            name: '	Dr Soma Dey Sarkar',
+            title: 'Asst. Professor of Law, North Bengal University, Darjeeling',
         },
         {
             name: '	Dr. Suresh M. Tripathi',
@@ -80,24 +76,12 @@ const Editor = () => {
             title: 'Asst. Professor of Law, Amity Law School, Lucknow',
         },
         {
-            name: '	Mrs. Annpurna Sinha',
-            title: 'Advocate, Allahabad High Court, Lucknow',
-        },
-        {
             name: '	Dr. Neha Mishra',
             title: 'Asst. Professor of Law, Amity University Haryana, Gurugram',
         },
         {
             name: '	Dr. Mayank Dubey',
             title: 'Advocate, Allahabad High Court, Prayagraj',
-        },
-        {
-            name: '	Mr. Pratik Mishra',
-            title: 'Advocate, Patna High Court, Patna',
-        },
-        {
-            name: '	Mr. Nishith Pandit',
-            title: 'Advocate, Gujarat High Court, Ahmedabad',
         },
         {
             name: '	Dr. Sarvesh K. Shahi',
@@ -116,8 +100,32 @@ const Editor = () => {
             title: 'Asst. Professor of Law, D.Y. Patil International University, Pune',
         },
         {
-            name:'Dr. Soma Dey Sarkar',
-            title:' Assistant Professor, North Bengal University'
+            name:'Dr Manisha Patawari',
+            title:' Asst. Professor of Law, ILNU, Nirma University, Ahmedabad'
+        },
+        {
+            name: "Mr Anoop Yadav",
+            title:'Prosecution Officer, CBI, New Delhi'
+        },
+        {
+            name: 'Dr Razia Chauhan',
+            title: 'Asst. Professor of Law, Sharda University, Greater Noida'
+        },
+        {
+            name: 'Mrs Yashi M. Tripathi',
+            title: 'Asst. Professor of Law, Faculty of Law, United University, Prayagraj'
+        },
+        {
+            name: 'Ms Sameera Fatima',
+            title: 'Asst. Professor of Law, Arka Jain University, Ranchi'
+        },
+        {
+            name: 'Dr Aditya Mishra',
+            title: 'Advocate, Supreme Court of India'
+        },
+        {
+            name:'Dr. Vartika Saxena',
+            title: 'Asst. Professor of Law, Amity University Madhya Pradesh, Gwalior'
         },
     ];
 
