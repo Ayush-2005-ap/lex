@@ -44,7 +44,7 @@ const Editor = () => {
             title: 'Human Rights & Social Activist, Lucknow',
         },
         {
-            name: '	Dr. Ritu Agarwal',
+            name: '	Dr. Ritu Agarwala',
             title: 'Asst. Professor of Sociology, Lucknow',
         },
         {
