@@ -4,27 +4,27 @@ const Editor = () => {
 
     const advisory = [
         {
-            name: 'Prof. (Dr.) Arun Gupto',
+            name:  'Dr. Arun Gupto',
             title: 'Professor of English, IACER, Pokhra University, Kathmandu',
         },
         {
-            name: 'Dr. Andrea Zappalaglio',
+            name:  'Dr. Andrea Zappalaglio',
             title: 'Associate Professor, Intellectual Property Law, University of Leeds (U.K.)',
         },
         {
-            name: 'Prof. (Dr.) Manirani Dasgupta',
+            name:  'Dr. Manirani Dasgupta',
             title: 'Professor of Law, University of Calcutta, Kolkata',
         },
         {
-            name: 'Dr Sudarsan Verma',
+            name:  'Dr Sudarsan Verma',
             title: 'Professor of Law, BBAU, Lucknow',
         },
         {
-            name: 'Prof. (Dr.) Pradeep Kulshrestha',
+            name:  'Dr. Pradeep Kulshrestha',
             title: 'Dean & Professor of Law, SoL, Bennett University, G. Noida',
         },
         {
-            name: '	Prof. (Dr.) Rashmi Nagpal',
+            name:  'Dr. Rashmi Nagpal',
             title: 'Director (I/C) SVKM’s NMIMS Chandigarh Campus',
         },
         {
@@ -48,7 +48,7 @@ const Editor = () => {
             title: 'Asst. Professor of Sociology, Lucknow',
         },
         {
-            name: '	Dr Soma Dey Sarkar',
+            name: '	Dr. Soma Dey Sarkar',
             title: 'Asst. Professor of Law, North Bengal University, Darjeeling',
         },
         {
@@ -100,7 +100,7 @@ const Editor = () => {
             title: 'Asst. Professor of Law, D.Y. Patil International University, Pune',
         },
         {
-            name:'Dr Manisha Patawari',
+            name:'Dr. Manisha Patawari',
             title:' Asst. Professor of Law, ILNU, Nirma University, Ahmedabad'
         },
         {
@@ -108,7 +108,7 @@ const Editor = () => {
             title:'Prosecution Officer, CBI, New Delhi'
         },
         {
-            name: 'Dr Razia Chauhan',
+            name: 'Dr. Razia Chauhan',
             title: 'Asst. Professor of Law, Sharda University, Greater Noida'
         },
         {
@@ -120,7 +120,7 @@ const Editor = () => {
             title: 'Asst. Professor of Law, Arka Jain University, Ranchi'
         },
         {
-            name: 'Dr Aditya Mishra',
+            name: 'Dr. Aditya Mishra',
             title: 'Advocate, Supreme Court of India'
         },
         {
