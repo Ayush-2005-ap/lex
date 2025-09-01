@@ -258,7 +258,7 @@ const Editor = () => {
                                 Address2: "Greater Noida, Uttar Pradesh",
                             },
                             {
-                                name: 'Dr. Sumit Agarwal',
+                                name: 'Dr. Sumit Agarwala',
                                 title: 'Associate Professor',
                                 university: 'The Assam Royal Global University, Guwahati',
                                 email: 'Email:sagarwala@rgu.ac',
