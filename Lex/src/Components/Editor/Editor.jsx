@@ -144,7 +144,7 @@ const Editor = () => {
         },
         {
             name: 'Sandhya Sharma',
-            title: 'Doctoral Candidate, Bennett University',
+            title: 'Asst. Professor, Christ University, Pune (Lavasa Campus)',
         },
         {
             name: 'Gaurav Yadav',
@@ -260,12 +260,12 @@ const Editor = () => {
                             {
                                 name: 'Dr. Sumit Agarwala',
                                 title: 'Associate Professor',
-                                university: 'The Assam Royal Global University, Guwahati',
+                                university: 'Assam Royal Global University, Guwahati',
                                 email: 'Email:sagarwala@rgu.ac',
                                 department: "School of Law",
                                 img: '/Images/Dr. sumit.png',
                                 department2: "",
-                                Address1: "The Assam Royal Global University, NH-27",
+                                Address1: "Assam Royal Global University, NH-27",
                                 Address2: "Betkuchi, Guwahati, Assam ",
                             },
                             {
@@ -282,13 +282,13 @@ const Editor = () => {
                             {
                                 name: 'Dr. Preeti Singh',
                                 title: 'Assistant Professor',
-                                university: 'Bennett University, Greater Noida',
-                                email: 'Email:preeti.singh@bennett.edu.in',
+                                university: 'University of Delhi, New Delhi',
+                                email: 'Email:preeti@lc1.du.ac.in',
                                 department: "School of Law",
                                 img: '/Images/dr.preeti-final.jpg',
                                 department2: "",
-                                Address1: "Bennett University, Plot#8-11, Tech Zone-2",
-                                Address2: "Greater Noida, Uttar Pradesh",
+                                Address1: "Law Centre I",
+                                Address2: "Faculty of Law, University of Delhi",
                             },
                             {
                                 name: 'Aprajita Kumari',
@@ -309,18 +309,18 @@ const Editor = () => {
                                 department: 'Dept. of Indic Studies',
                                 img: '/Images/Ravi-prakash-chaubey.jpg',
                                 department2: "",
-                                Address1: "Gurugram University, Opp. Presidium School",
+                                Address1: "Gurugram University",
                                 Address2: "Gurugram, Haryana ",
                             },
                             {
                                 name: 'Dr. Bhupali Saikia',
                                 title: 'Assistant Professor',
-                                university: 'The Assam Royal Global University, Guwahati',
+                                university: 'Assam Royal Global University, Guwahati',
                                 email: 'Email:bsaikia1@rgu.ac',
                                 department: "School of Law",
                                 img: '/Images/Bhupali-Saikia.jpg',
                                 department2: "",
-                                Address1: "The Assam Royal Global University",
+                                Address1: "Assam Royal Global University",
                                 Address2: "Betkuchi, Guwahati, Assam "
                             },
                             {
@@ -333,6 +333,17 @@ const Editor = () => {
                                 department2: "",
                                 Address1: "IILM University, Knowledge Park II",
                                 Address2: "Greater Noida, Uttar Pradesh",
+                            },
+                            {
+                                name: 'Dr. Neha Garg',
+                                title: 'HOD, Department of Law ',
+                                university: 'BVIMR, Bharti Vidyapeeth, Pune',
+                                email: 'Email:neha.garg@bharatividyapeeth.edu',
+                                department: "School of Law",
+                                img: '/Images/Nehagarg.jpg',
+                                department2: "",
+                                Address1: "BVIMR, Delhi NCR Campus",
+                                Address2: "Bharti Vidyapeeth, Pune",
                             },
                         ].map((editor, idx) => (
                             <div key={idx} className="min-w-[280px] flex flex-col items-center bg-white rounded p-4 shadow hover:scale-105 hover:bg-gray-300 transition duration-300">
