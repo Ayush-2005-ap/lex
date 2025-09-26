@@ -150,10 +150,31 @@ const Archives = () => {
           year: 2016, 
           pdf: "/Pdfs/LR_(1)_2016.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 40, title: "Paper Title", author: "Author Name", pages: "1-22", pdf: "/Pdfs/Papers_2016_1/1.pdf" },
-            { id: 41, title: "Paper Title", author: "Author Name", pages: "23-38", pdf: "/Pdfs/Papers_2016_1/2.pdf" },
-            // Add more papers...
+            { id: 88, title: "Research Paper 1", author: "Jyoti", pages: "1-9", pdf: "/Pdfs/Papers5/1.pdf" },
+            { id: 89, title: "Research Paper 2", author: "Dr. Deepak Kumar Srivastava & Ankit Awasthi ", pages: "10-17", pdf: "/Pdfs/Papers5/2.pdf" },
+            { id: 90, title: "Research Paper 3", author: "Aesha Patel", pages: "18-28", pdf: "/Pdfs/Papers5/3.pdf" },
+            { id: 91, title: "Research Paper 4", author: "Ekta Rathore", pages: "29-33", pdf: "/Pdfs/Papers5/4.pdf" },
+            { id: 92, title: "Research Paper 5", author: "Archita Prajapati", pages: "34-43", pdf: "/Pdfs/Papers5/5.pdf" },
+            { id: 93, title: "Research Paper 6", author: "Dr. Meena Ketan Sahu", pages: "44-51", pdf: "/Pdfs/Papers5/6.pdf" },
+            { id: 94, title: "Research Paper 7", author: "Iti Batra ", pages: "52-62", pdf: "/Pdfs/Papers5/7.pdf" },
+            { id: 95, title: "Research Paper 8", author: "Vijay Shekhar Jha", pages: "63-76", pdf: "/Pdfs/Papers5/8.pdf" },
+            { id: 96, title: "Research Paper 9", author: "Palak Jain", pages: "77-85", pdf: "/Pdfs/Papers5/9.pdf" },
+            { id: 97, title: "Research Paper 10", author: "Anish Ghosh", pages: "86-92", pdf: "/Pdfs/Papers5/10.pdf" },
+            { id: 98, title: "Research Paper 11", author: "Harshit Kumar", pages: "93-102", pdf: "/Pdfs/Papers5/11.pdf" },
+            { id: 99, title: "Research Paper 12", author: "Prachi Shekhawat & Shefali Munde", pages: "103-111", pdf: "/Pdfs/Papers5/12.pdf" },
+            { id: 100, title: "Research Paper 13", author: "Kartik Raghuwanshi & Priyam Jhudele", pages: "112-118", pdf: "/Pdfs/Papers5/13.pdf" },
+            { id: 101, title: "Research Paper 14", author: "Dr. Narendra Kumar Verma", pages: "119-126", pdf: "/Pdfs/Papers5/14.pdf" },
+            { id: 102, title: "Research Paper 15", author: "B Pallavi Patro & Vikalp Srivastava", pages: "127-136", pdf: "/Pdfs/Papers5/15.pdf" },
+            { id: 103, title: "Research Paper 16", author: "Shafaque Raza", pages: "137-145", pdf: "/Pdfs/Papers5/16.pdf" },
+            { id: 104, title: "Research Paper 17", author: "Mitali Jain", pages: "146-155", pdf: "/Pdfs/Papers5/17.pdf" },
+            { id: 105, title: "Research Paper 18", author: "Namrata Chakraborty", pages: "156-165", pdf: "/Pdfs/Papers5/18.pdf" },
+            { id: 106, title: "Research Paper 19", author: "Shubham Singh & Pallavi Singh", pages: "166-173", pdf: "/Pdfs/Papers5/19.pdf" },
+            { id: 107, title: "Research Paper 20", author: "Yogendra Kumar Kumawat", pages: "174-181", pdf: "/Pdfs/Papers5/20.pdf" },
+            { id: 108, title: "Research Paper 21", author: "Utkarsh Kumar Sonkar", pages: "182-191", pdf: "/Pdfs/Papers5/21.pdf" },
+            { id: 109, title: "Research Paper 22", author: "Bhavinee", pages: "192-196", pdf: "/Pdfs/Papers5/22.pdf" },
+            { id: 110, title: "Research Paper 23", author: "Aanal Desai ", pages: "197-204", pdf: "/Pdfs/Papers5/23.pdf" },
+            { id: 111, title: "Research Paper 24", author: "Shafali R. N.", pages: "205-216", pdf: "/Pdfs/Papers5/24.pdf" },
+            { id: 112, title: "Research Paper 25", author: "T. Deekshitha", pages: "217-225", pdf: "/Pdfs/Papers5/25.pdf" },
           ]
         },
         { 
@@ -163,10 +184,20 @@ const Archives = () => {
           year: 2016, 
           pdf: "/Pdfs/LR_(2)_2016.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 42, title: "Paper Title", author: "Author Name", pages: "1-19", pdf: "/Pdfs/Papers_2016_2/1.pdf" },
-            { id: 43, title: "Paper Title", author: "Author Name", pages: "20-35", pdf: "/Pdfs/Papers_2016_2/2.pdf" },
-            // Add more papers...
+            { id: 113, title: "Research Paper 1", author: "Tandra Seetharam & Prof. A. Rajendra Prasad", pages: "1-6", pdf: "/Pdfs/Papers6/1.pdf" },
+            { id: 114, title: "Research Paper 2", author: "Dr. Suresh Mani Tripathi", pages: "7-15", pdf: "/Pdfs/Papers6/2.pdf" },
+            { id: 115, title: "Research Paper 3", author: "Animesh Kumar & Juhi Singh", pages: "16-24", pdf: "/Pdfs/Papers6/Two.pdf" },
+            { id: 116, title: "Research Paper 4", author: "Dr. S. P. Mishra", pages: "25-37", pdf: "/Pdfs/Papers6/3.pdf" },
+            { id: 117, title: "Research Paper 5", author: "Shital Priyadarshi", pages: "38-46", pdf: "/Pdfs/Papers6/4.pdf" },
+            { id: 118, title: "Research Paper 6", author: "Joyjoti Hore", pages: "47-59", pdf: "/Pdfs/Papers6/5.pdf" },
+            { id: 119, title: "Research Paper 7", author: "Dhruv B. Goswami", pages: "60-69", pdf: "/Pdfs/Papers6/6.pdf" },
+            { id: 120, title: "Research Paper 8", author: "Ghan Shyam Pal", pages: "70-85", pdf: "/Pdfs/Papers6/7.pdf" },
+            { id: 121, title: "Research Paper 9", author: "Isha Oza", pages: "86-98", pdf: "/Pdfs/Papers6/8.pdf" },
+            { id: 122, title: "Research Paper 10", author: "Tandra Seetharam & Prof. A. Rajendra Prasad", pages: "99-110", pdf: "/Pdfs/Papers6/9.pdf" },
+            { id: 123, title: "Research Paper 11", author: "Shailesh Mishra", pages: "111-121", pdf: "/Pdfs/Papers6/10.pdf" },
+            { id: 124, title: "Research Paper 12", author: "Nidhi Tewari & Srishti Vaishnav", pages: "122-145", pdf: "/Pdfs/Papers6/11.pdf" },
+            { id: 125, title: "Research Paper 13", author: "Aniruddh Shastree", pages: "146-157", pdf: "/Pdfs/Papers6/12.pdf" },
+            { id: 126, title: "Research Paper 14", author: "Swati Singh Parmar", pages: "158-168", pdf: "/Pdfs/Papers6/13.pdf" },
           ]
         },
         { 
