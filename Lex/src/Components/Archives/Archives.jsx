@@ -207,10 +207,18 @@ const Archives = () => {
           year: 2016, 
           pdf: "/Pdfs/LR_(3)_2016.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 44, title: "Paper Title", author: "Author Name", pages: "1-24", pdf: "/Pdfs/Papers_2016_3/1.pdf" },
-            { id: 45, title: "Paper Title", author: "Author Name", pages: "25-42", pdf: "/Pdfs/Papers_2016_3/2.pdf" },
-            // Add more papers...
+            { id: 127, title: "Research Paper 1", author: "Lipika Sharma", pages: "1-6", pdf: "/Pdfs/Papers7/1.pdf" },
+            { id: 128, title: "Research Paper 2", author: "Aastha Dube", pages: "7-15", pdf: "/Pdfs/Papers7/2.pdf" },
+            { id: 129, title: "Research Paper 3", author: "Sargam Jain", pages: "16-24", pdf: "/Pdfs/Papers7/3.pdf" },
+            { id: 130, title: "Research Paper 4", author: "Dr. Manish Yadav", pages: "25-37", pdf: "/Pdfs/Papers7/4.pdf" },
+            { id: 131, title: "Research Paper 5", author: "Sarvesh Kumar Shah", pages: "38-46", pdf: "/Pdfs/Papers7/5.pdf" },
+            { id: 132, title: "Research Paper 6", author: "Meet A. Shah & Harpalsinh R. Parmar", pages: "47-59", pdf: "/Pdfs/Papers7/6.pdf" },
+            { id: 133, title: "Research Paper 7", author: "Agampreet Singh & Lakhan Mittal", pages: "60-69", pdf: "/Pdfs/Papers7/7.pdf" },
+            { id: 134, title: "Research Paper 8", author: "Prakash Chandra Kasera", pages: "70-85", pdf: "/Pdfs/Papers7/8.pdf" },
+            { id: 135, title: "Research Paper 9", author: "S. Aruna Sri & Prof. A. Subrahmanyam", pages: "86-98", pdf: "/Pdfs/Papers7/9.pdf" },
+            { id: 136, title: "Research Paper 10", author: "Aparajita Kumari ", pages: "99-110", pdf: "/Pdfs/Papers7/10.pdf" },
+            { id: 137, title: "Research Paper 11", author: "Mayuri Gupta ", pages: "111-121", pdf: "/Pdfs/Papers7/11.pdf" },
+            { id: 138, title: "Research Paper 12", author: "S. Aruna Sri & Prof. A. Subrahmanyam", pages: "122-145", pdf: "/Pdfs/Papers7/12.pdf" },
           ]
         },
         { 
@@ -220,10 +228,18 @@ const Archives = () => {
           year: 2016, 
           pdf: "/Pdfs/LR_(4)_2016.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 46, title: "Paper Title", author: "Author Name", pages: "1-28", pdf: "/Pdfs/Papers_2016_4/1.pdf" },
-            { id: 47, title: "Paper Title", author: "Author Name", pages: "29-45", pdf: "/Pdfs/Papers_2016_4/2.pdf" },
-            // Add more papers...
+            { id: 139, title: "Research Paper 1", author: "Dr. Ritu Agarwal", pages: "1-6", pdf: "/Pdfs/Papers12/1.pdf" },
+            { id: 140, title: "Research Paper 2", author: "Dr. Y. Papa Rao", pages: "7-15", pdf: "/Pdfs/Papers12/2.pdf" },
+            { id: 141, title: "Research Paper 3", author: "Dr. Balwinder Kaur", pages: "16-24", pdf: "/Pdfs/Papers12/3.pdf" },
+            { id: 142, title: "Research Paper 4", author: "Pallavi Kumari", pages: "25-37", pdf: "/Pdfs/Papers12/4.pdf" },
+            { id: 143, title: "Research Paper 5", author: "Mayuri Gupta", pages: "38-46", pdf: "/Pdfs/Papers12/5.pdf" },
+            { id: 144, title: "Research Paper 6", author: "Sanjana Shrivastava", pages: "47-59", pdf: "/Pdfs/Papers12/6.pdf" },
+            { id: 145, title: "Research Paper 7", author: "Aparajita Kumari ", pages: "60-69", pdf: "/Pdfs/Papers12/7.pdf" },
+            // { id: 134, title: "Research Paper 8", author: "Prakash Chandra Kasera", pages: "70-85", pdf: "/Pdfs/Papers7/8.pdf" },
+            // { id: 135, title: "Research Paper 9", author: "S. Aruna Sri & Prof. A. Subrahmanyam", pages: "86-98", pdf: "/Pdfs/Papers7/9.pdf" },
+            // { id: 136, title: "Research Paper 10", author: "Aparajita Kumari ", pages: "99-110", pdf: "/Pdfs/Papers7/10.pdf" },
+            // { id: 137, title: "Research Paper 11", author: "Mayuri Gupta ", pages: "111-121", pdf: "/Pdfs/Papers7/11.pdf" },
+            // { id: 138, title: "Research Paper 12", author: "S. Aruna Sri & Prof. A. Subrahmanyam", pages: "122-145", pdf: "/Pdfs/Papers7/12.pdf" },
           ]
         }
       ]
@@ -240,9 +256,18 @@ const Archives = () => {
           year: 2017, 
           pdf: "/Pdfs/LR_(1)_2017.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 48, title: "Paper Title", author: "Author Name", pages: "1-20", pdf: "/Pdfs/Papers_2017_1/1.pdf" },
-            // Add more papers...
+            { id: 146, title: "Research Paper 1", author: "Animesh Kumar", pages: "1-6", pdf: "/Pdfs/Papers8/1.pdf" },
+            { id: 147, title: "Research Paper 2", author: "Aditi Singhal ", pages: "7-15", pdf: "/Pdfs/Paper87/2.pdf" },
+            { id: 148, title: "Research Paper 3", author: "Akanksha Pandey", pages: "16-24", pdf: "/Pdfs/Papers8/3.pdf" },
+            { id: 149, title: "Research Paper 4", author: "Sagar Khanna & Akansha Srivastava ", pages: "25-37", pdf: "/Pdfs/Papers8/4.pdf" },
+            { id: 150, title: "Research Paper 5", author: "Diksha Chadha", pages: "38-46", pdf: "/Pdfs/Papers8/5.pdf" },
+            { id: 151, title: "Research Paper 6", author: "Tamanna Nayeem", pages: "47-59", pdf: "/Pdfs/Papers8/6.pdf" },
+            { id: 152, title: "Research Paper 7", author: "Dr. Ritu Agarwal & Aisha Moonis", pages: "60-69", pdf: "/Pdfs/Papers8/7.pdf" },
+            { id: 153, title: "Research Paper 8", author: "Prateek Gupta", pages: "70-85", pdf: "/Pdfs/Papers8/8.pdf" },
+            { id: 154, title: "Research Paper 9", author: "Sahiba Shafique", pages: "86-98", pdf: "/Pdfs/Papers8/9.pdf" },
+            { id: 155, title: "Research Paper 10", author: "Omar Munir & Rudra Dutta", pages: "99-110", pdf: "/Pdfs/Papers8/10.pdf" },
+            { id: 156, title: "Research Paper 11", author: "Sakshi Goel", pages: "111-121", pdf: "/Pdfs/Papers8/11.pdf" },
+            { id: 157, title: "Research Paper 12", author: "Tanaya Agrawal", pages: "122-145", pdf: "/Pdfs/Papers8/12.pdf" },
           ]
         },
         { 
@@ -252,9 +277,18 @@ const Archives = () => {
           year: 2017, 
           pdf: "/Pdfs/LR_(2)_2017.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 49, title: "Paper Title", author: "Author Name", pages: "1-25", pdf: "/Pdfs/Papers_2017_2/1.pdf" },
-            // Add more papers...
+            { id: 158, title: "Research Paper 1", author: "Prof. S. K. Gaur", pages: "1-6", pdf: "/Pdfs/Papers9/1.pdf" },
+            { id: 159, title: "Research Paper 2", author: "Divya Singh Rathor & Sarvesh Sahi", pages: "7-15", pdf: "/Pdfs/Papers9/2.pdf" },
+            { id: 160, title: "Research Paper 3", author: "Tanaya Agrawal & Dr. P.K.Gautam", pages: "16-24", pdf: "/Pdfs/Papers9/3.pdf" },
+            { id: 161, title: "Research Paper 4", author: "Aparajita Singh ", pages: "25-37", pdf: "/Pdfs/Papers9/4.pdf" },
+            { id: 162, title: "Research Paper 5", author: "Vishrut Relan & Shiven Kaushik", pages: "38-46", pdf: "/Pdfs/Papers9/5.pdf" },
+            { id: 163, title: "Research Paper 6", author: "Sumit Agarwala & Shilpy", pages: "47-59", pdf: "/Pdfs/Papers9/6.pdf" },
+            { id: 164, title: "Research Paper 7", author: "Ashutosh Shukla & Sakshi Mishra", pages: "60-69", pdf: "/Pdfs/Papers9/7.pdf" },
+            { id: 165, title: "Research Paper 8", author: "Lipika Sharma", pages: "70-85", pdf: "/Pdfs/Papers9/8.pdf" },
+            { id: 166, title: "Research Paper 9", author: "Alvin Antony", pages: "86-98", pdf: "/Pdfs/Papers9/9.pdf" },
+            { id: 167, title: "Research Paper 10", author: "Sumit Agarwala & Shilpy", pages: "99-110", pdf: "/Pdfs/Papers9/10.pdf" },
+            { id: 168, title: "Research Paper 11", author: "Anshul Pande", pages: "111-121", pdf: "/Pdfs/Papers9/11.pdf" },
+            { id: 169, title: "Research Paper 12", author: "Prabhat Dixit", pages: "122-145", pdf: "/Pdfs/Papers9/12.pdf" },
           ]
         },
         { 
@@ -264,9 +298,19 @@ const Archives = () => {
           year: 2017, 
           pdf: "/Pdfs/LR_(3)_2017.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 50, title: "Paper Title", author: "Author Name", pages: "1-30", pdf: "/Pdfs/Papers_2017_3/1.pdf" },
-            // Add more papers...
+            { id: 170, title: "Research Paper 1", author: "Prof. R. K. Singh & Bhanu Pratap", pages: "1-6", pdf: "/Pdfs/Papers10/1.pdf" },
+            { id: 171, title: "Research Paper 2", author: "Dr. Ashutosh Hajela", pages: "7-15", pdf: "/Pdfs/Papers10/2.pdf" },
+            { id: 172, title: "Research Paper 3", author: "Dr. Mazoor Ahmad Mansoori ", pages: "16-24", pdf: "/Pdfs/Papers10/3.pdf" },
+            { id: 173, title: "Research Paper 4", author: "Dr. Meena Ketan Sahu ", pages: "25-37", pdf: "/Pdfs/Papers10/4.pdf" },
+            { id: 174, title: "Research Paper 5", author: "Dr. Shefali Yadav & Pooja Kaushik", pages: "38-46", pdf: "/Pdfs/Papers10/5.pdf" },
+            { id: 175, title: "Research Paper 6", author: "Priti Bhasker", pages: "47-59", pdf: "/Pdfs/Papers10/6.pdf" },
+            { id: 176, title: "Research Paper 7", author: "Mukesh Shukla", pages: "60-69", pdf: "/Pdfs/Papers10/7.pdf" },
+            { id: 177, title: "Research Paper 8", author: "Drishti Saxena", pages: "70-85", pdf: "/Pdfs/Papers10/8.pdf" },
+            { id: 178, title: "Research Paper 9", author: "Meenakshi Awasthi & Aishwarya Pandey", pages: "86-98", pdf: "/Pdfs/Papers10/9.pdf" },
+            { id: 179, title: "Research Paper 10", author: "Khaled Abdalhadi A. Hamad & Y.P. R. Subbaah", pages: "99-110", pdf: "/Pdfs/Papers10/10.pdf" },
+            { id: 180, title: "Research Paper 11", author: "Khaled Abdalhadi A. Hamad", pages: "111-121", pdf: "/Pdfs/Papers10/11.pdf" },
+            { id: 181, title: "Research Paper 12", author: "Diksha Dwivedi & Saumya Singhal", pages: "122-145", pdf: "/Pdfs/Papers10/12.pdf" },
+            { id: 182, title: "Research Paper 12", author: "Dr. Manish Yadav & Dr. Himanshu Pandey", pages: "122-145", pdf: "/Pdfs/Papers10/12.pdf" },
           ]
         },
         { 
@@ -276,9 +320,31 @@ const Archives = () => {
           year: 2017, 
           pdf: "/Pdfs/LR_(4)_2017.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 51, title: "Paper Title", author: "Author Name", pages: "1-22", pdf: "/Pdfs/Papers_2017_4/1.pdf" },
-            // Add more papers...
+            { id: 183, title: "Research Paper 1", author: "Dr. Rashmi Khorana Nagpal", pages: "1-6", pdf: "/Pdfs/Papers11/1.pdf" },
+            { id: 184, title: "Research Paper 2", author: "Dr. Ritu Agarwal ", pages: "7-15", pdf: "/Pdfs/Papers11/2.pdf" },
+            { id: 185, title: "Research Paper 3", author: "Dr. Meena Ketan Sahu", pages: "16-24", pdf: "/Pdfs/Papers11/3.pdf" },
+            { id: 186, title: "Research Paper 4", author: "Dr. Rashmi Khorana Nagpal ", pages: "25-37", pdf: "/Pdfs/Papers11/4.pdf" },
+            { id: 187, title: "Research Paper 5", author: "Mrs. Rekha Thakur", pages: "38-46", pdf: "/Pdfs/Papers11/5.pdf" },
+            { id: 188, title: "Research Paper 6", author: "Shailesh Mishra", pages: "47-59", pdf: "/Pdfs/Papers11/6.pdf" },
+            { id: 189, title: "Research Paper 7", author: "P. Satheesh", pages: "60-69", pdf: "/Pdfs/Papers11/7.pdf" },
+            { id: 190, title: "Research Paper 8", author: "Manish Kumar Kushwaha", pages: "70-85", pdf: "/Pdfs/Papers11/8.pdf" },
+            { id: 191, title: "Research Paper 9", author: "Dr. Rohit P. Shabran & Axita Srivastava", pages: "86-98", pdf: "/Pdfs/Papers11/9.pdf" },
+            { id: 192, title: "Research Paper 10", author: "Khaled Abdalhadi A. Hamad", pages: "99-110", pdf: "/Pdfs/Papers11/10.pdf" },
+            { id: 193, title: "Research Paper 11", author: "Shameena Bano", pages: "111-121", pdf: "/Pdfs/Papers11/11.pdf" },
+            { id: 194, title: "Research Paper 12", author: "Diksha Dwivedi & Jahnavi Singh", pages: "122-145", pdf: "/Pdfs/Papers11/12.pdf" },
+            { id: 195, title: "Research Paper 12", author: "Dr. Shefali Yadav & Pooja Kaushik", pages: "122-145", pdf: "/Pdfs/Papers11/13.pdf" },
+            { id: 196, title: "Research Paper 12", author: "Ritika Juneja", pages: "122-145", pdf: "/Pdfs/Papers11/14.pdf" },
+            { id: 197, title: "Research Paper 12", author: "Tanmoy Roy", pages: "122-145", pdf: "/Pdfs/Papers11/15.pdf" },
+            { id: 198, title: "Research Paper 12", author: "Shilpa Rao Rastogi", pages: "122-145", pdf: "/Pdfs/Papers11/16.pdf" },
+            { id: 199, title: "Research Paper 12", author: "Apeksha Chauhan", pages: "122-145", pdf: "/Pdfs/Papers11/17.pdf" },
+            { id: 200, title: "Research Paper 12", author: "Esmahan F. Alakab Khaniefr", pages: "122-145", pdf: "/Pdfs/Papers11/18.pdf" },
+            { id: 201, title: "Research Paper 12", author: "Ridhima Verma & Yuvraaj Paul", pages: "122-145", pdf: "/Pdfs/Papers11/19.pdf" },
+            { id: 202, title: "Research Paper 12", author: "Aishwarya Pandey", pages: "122-145", pdf: "/Pdfs/Papers11/20.pdf" },
+            { id: 203, title: "Research Paper 12", author: "Gaurav Singh", pages: "122-145", pdf: "/Pdfs/Papers11/21.pdf" },
+            { id: 204, title: "Research Paper 12", author: "Shreya Mehta", pages: "122-145", pdf: "/Pdfs/Papers11/22.pdf" },
+
+
+            
           ]
         }
       ]
@@ -885,7 +951,7 @@ const Archives = () => {
 
         <div className="max-w-4xl mx-auto">
           {/* Complete Issue Download */}
-          {selectedIssue.pdf && (
+          {/* {selectedIssue.pdf && (
             <div className="mb-8 p-6 bg-gradient-to-r from-[#900001] to-[#700001] text-white rounded-xl">
               <div className="flex items-center justify-between">
                 <div>
@@ -902,7 +968,7 @@ const Archives = () => {
                 </a>
               </div>
             </div>
-          )}
+          )} */}
 
           {/* Individual Papers */}
           <div className="mb-6">
@@ -930,9 +996,9 @@ const Archives = () => {
                   <p className="text-sm text-gray-600 mb-1">
                     By {paper.author}
                   </p>
-                  <p className="text-xs text-gray-500">
+                  {/* <p className="text-xs text-gray-500">
                     Pages: {paper.pages}
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex items-center text-[#900001] group-hover:text-[#700001] transition-colors">
                   <span className="text-sm font-medium mr-2">Download PDF</span>
