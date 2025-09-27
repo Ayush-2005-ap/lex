@@ -13,11 +13,11 @@ const Archives = () => {
       number: "I",
       year: 2015,
       issues: [
-        { 
-          id: 1, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2015, 
+        {
+          id: 1,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2015,
           pdf: "/Pdfs/LR_(1)_2015.pdf",
           papers: [
             { id: 1, title: "Research Paper 1", author: "Ashutosh Kumar Shukla", pages: "9", pdf: "/Pdfs/Papers/1.pdf" },
@@ -36,11 +36,11 @@ const Archives = () => {
             { id: 14, title: "Research Paper 14", author: "Partha Sarthi Mishra", pages: "19", pdf: "/Pdfs/Papers/14.pdf" },
           ]
         },
-        { 
-          id: 2, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2015, 
+        {
+          id: 2,
+          number: 2,
+          period: "APR-JUN",
+          year: 2015,
           pdf: "/Pdfs/LR_(2)_2015.pdf",
           papers: [
             { id: 15, title: "Research Paper 1", author: "Saket Dang", pages: "9", pdf: "/Pdfs/Papers2/1.pdf" },
@@ -66,11 +66,11 @@ const Archives = () => {
             { id: 35, title: "Research Paper 21", author: "Priyank Kumar Saxena", pages: "19", pdf: "/Pdfs/Papers2/21.pdf" },
           ]
         },
-        { 
-          id: 3, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2015, 
+        {
+          id: 3,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2015,
           pdf: "/Pdfs/LR_(3)_2015.pdf",
           papers: [
             { id: 36, title: "Research Paper 1", author: "Ayalew Abate Bishaw", pages: "9", pdf: "/Pdfs/Papers3/1.pdf" },
@@ -106,11 +106,11 @@ const Archives = () => {
             { id: 66, title: "Research Paper 21", author: "Rudra Dutta & Priyanshu Gupta", pages: "19", pdf: "/Pdfs/Papers3/31.pdf" },
           ]
         },
-        { 
-          id: 4, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2015, 
+        {
+          id: 4,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2015,
           pdf: "/Pdfs/LR_(4)_2015.pdf",
           papers: [
             { id: 67, title: "Research Paper 1", author: "Prof. S. K. Gaur", pages: "9", pdf: "/Pdfs/Papers4/1.pdf" },
@@ -143,11 +143,11 @@ const Archives = () => {
       number: "II",
       year: 2016,
       issues: [
-        { 
-          id: 5, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2016, 
+        {
+          id: 5,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2016,
           pdf: "/Pdfs/LR_(1)_2016.pdf",
           papers: [
             { id: 88, title: "Research Paper 1", author: "Jyoti", pages: "1-9", pdf: "/Pdfs/Papers5/1.pdf" },
@@ -177,11 +177,11 @@ const Archives = () => {
             { id: 112, title: "Research Paper 25", author: "T. Deekshitha", pages: "217-225", pdf: "/Pdfs/Papers5/25.pdf" },
           ]
         },
-        { 
-          id: 6, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2016, 
+        {
+          id: 6,
+          number: 2,
+          period: "APR-JUN",
+          year: 2016,
           pdf: "/Pdfs/LR_(2)_2016.pdf",
           papers: [
             { id: 113, title: "Research Paper 1", author: "Tandra Seetharam & Prof. A. Rajendra Prasad", pages: "1-6", pdf: "/Pdfs/Papers6/1.pdf" },
@@ -200,11 +200,11 @@ const Archives = () => {
             { id: 126, title: "Research Paper 14", author: "Swati Singh Parmar", pages: "158-168", pdf: "/Pdfs/Papers6/13.pdf" },
           ]
         },
-        { 
-          id: 7, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2016, 
+        {
+          id: 7,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2016,
           pdf: "/Pdfs/LR_(3)_2016.pdf",
           papers: [
             { id: 127, title: "Research Paper 1", author: "Lipika Sharma", pages: "1-6", pdf: "/Pdfs/Papers7/1.pdf" },
@@ -221,11 +221,11 @@ const Archives = () => {
             { id: 138, title: "Research Paper 12", author: "S. Aruna Sri & Prof. A. Subrahmanyam", pages: "122-145", pdf: "/Pdfs/Papers7/12.pdf" },
           ]
         },
-        { 
-          id: 8, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2016, 
+        {
+          id: 8,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2016,
           pdf: "/Pdfs/LR_(4)_2016.pdf",
           papers: [
             { id: 139, title: "Research Paper 1", author: "Dr. Ritu Agarwal", pages: "1-6", pdf: "/Pdfs/Papers12/1.pdf" },
@@ -249,11 +249,11 @@ const Archives = () => {
       number: "III",
       year: 2017,
       issues: [
-        { 
-          id: 9, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2017, 
+        {
+          id: 9,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2017,
           pdf: "/Pdfs/LR_(1)_2017.pdf",
           papers: [
             { id: 146, title: "Research Paper 1", author: "Animesh Kumar", pages: "1-6", pdf: "/Pdfs/Papers8/1.pdf" },
@@ -270,11 +270,11 @@ const Archives = () => {
             { id: 157, title: "Research Paper 12", author: "Tanaya Agrawal", pages: "122-145", pdf: "/Pdfs/Papers8/12.pdf" },
           ]
         },
-        { 
-          id: 10, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2017, 
+        {
+          id: 10,
+          number: 2,
+          period: "APR-JUN",
+          year: 2017,
           pdf: "/Pdfs/LR_(2)_2017.pdf",
           papers: [
             { id: 158, title: "Research Paper 1", author: "Prof. S. K. Gaur", pages: "1-6", pdf: "/Pdfs/Papers9/1.pdf" },
@@ -291,11 +291,11 @@ const Archives = () => {
             { id: 169, title: "Research Paper 12", author: "Prabhat Dixit", pages: "122-145", pdf: "/Pdfs/Papers9/12.pdf" },
           ]
         },
-        { 
-          id: 11, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2017, 
+        {
+          id: 11,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2017,
           pdf: "/Pdfs/LR_(3)_2017.pdf",
           papers: [
             { id: 170, title: "Research Paper 1", author: "Prof. R. K. Singh & Bhanu Pratap", pages: "1-6", pdf: "/Pdfs/Papers10/1.pdf" },
@@ -313,11 +313,11 @@ const Archives = () => {
             { id: 182, title: "Research Paper 12", author: "Dr. Manish Yadav & Dr. Himanshu Pandey", pages: "122-145", pdf: "/Pdfs/Papers10/12.pdf" },
           ]
         },
-        { 
-          id: 12, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2017, 
+        {
+          id: 12,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2017,
           pdf: "/Pdfs/LR_(4)_2017.pdf",
           papers: [
             { id: 183, title: "Research Paper 1", author: "Dr. Rashmi Khorana Nagpal", pages: "1-6", pdf: "/Pdfs/Papers11/1.pdf" },
@@ -344,7 +344,7 @@ const Archives = () => {
             { id: 204, title: "Research Paper 12", author: "Shreya Mehta", pages: "122-145", pdf: "/Pdfs/Papers11/22.pdf" },
 
 
-            
+
           ]
         }
       ]
@@ -354,52 +354,113 @@ const Archives = () => {
       number: "IV",
       year: 2018,
       issues: [
-        { 
-          id: 13, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2018, 
+        {
+          id: 13,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2018,
           pdf: "/Pdfs/LR_(1)_2018.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 52, title: "Paper Title", author: "Author Name", pages: "1-18", pdf: "/Pdfs/Papers_2018_1/1.pdf" },
-            // Add more papers...
+            { id: 205, title: "Research Paper 1", author: "Dr. Ritu Agarwal", pages: "1-6", pdf: "/Pdfs/Papers13/1.pdf" },
+            { id: 206, title: "Research Paper 2", author: "Preeti Singh ", pages: "7-15", pdf: "/Pdfs/Papers13/2.pdf" },
+            { id: 207, title: "Research Paper 3", author: "Kanika Sharma", pages: "16-24", pdf: "/Pdfs/Papers13/3.pdf" },
+            { id: 208, title: "Research Paper 4", author: "Dr. Pawandeep Kaur", pages: "25-37", pdf: "/Pdfs/Papers13/4.pdf" },
+            { id: 209, title: "Research Paper 5", author: "Dr. Ashutosh Hajela", pages: "38-46", pdf: "/Pdfs/Papers13/5.pdf" },
+            { id: 210, title: "Research Paper 6", author: "Priyanka Bhowmik", pages: "47-59", pdf: "/Pdfs/Papers13/6.pdf" },
+            { id: 211, title: "Research Paper 7", author: "Anjum Hassan", pages: "60-69", pdf: "/Pdfs/Papers13/7.pdf" },
+            { id: 212, title: "Research Paper 8", author: "Prof. (Dr.) Akil Saiyed", pages: "70-85", pdf: "/Pdfs/Papers13/8.pdf" },
+            { id: 213, title: "Research Paper 9", author: "Manasvi Tyagi & Prof (Dr.) Shashikant Hajare", pages: "86-98", pdf: "/Pdfs/Papers13/9.pdf" },
+            { id: 214, title: "Research Paper 10", author: "Harshit Singh Bhatia", pages: "99-110", pdf: "/Pdfs/Papers13/10.pdf" },
+            { id: 215, title: "Research Paper 11", author: "N. Edwin", pages: "111-121", pdf: "/Pdfs/Papers13/11.pdf" },
+            { id: 216, title: "Research Paper 12", author: "Diksha Dwivedi & Aarshi Chatterjee", pages: "122-145", pdf: "/Pdfs/Papers13/12.pdf" },
+            { id: 217, title: "Research Paper 12", author: "Dr. Nabamita Paul Ray", pages: "122-145", pdf: "/Pdfs/Papers13/13.pdf" },
+            { id: 218, title: "Research Paper 12", author: "Sonam Jain Bajpai", pages: "122-145", pdf: "/Pdfs/Papers13/14.pdf" },
+            { id: 219, title: "Research Paper 12", author: "Shalbha Singh", pages: "122-145", pdf: "/Pdfs/Papers13/15.pdf" },
+            { id: 220, title: "Research Paper 12", author: "Jahnavi Singh", pages: "122-145", pdf: "/Pdfs/Papers13/16.pdf" },
+            { id: 221, title: "Research Paper 12", author: "Anish Ghosh", pages: "122-145", pdf: "/Pdfs/Papers13/17.pdf" },
+            { id: 222, title: "Research Paper 12", author: "Neha Goswami", pages: "122-145", pdf: "/Pdfs/Papers13/18.pdf" },
+            { id: 223, title: "Research Paper 12", author: "Ridhima Verma", pages: "122-145", pdf: "/Pdfs/Papers13/19.pdf" },
+            { id: 224, title: "Research Paper 12", author: "Mayura Sabne-Botungale", pages: "122-145", pdf: "/Pdfs/Papers13/20.pdf" },
+            { id: 225, title: "Research Paper 12", author: "Sujeet Kumar", pages: "122-145", pdf: "/Pdfs/Papers13/21.pdf" },
           ]
         },
-        { 
-          id: 14, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2018, 
+        {
+          id: 14,
+          number: 2,
+          period: "APR-JUN",
+          year: 2018,
           pdf: "/Pdfs/LR_(2)_2018.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 53, title: "Paper Title", author: "Author Name", pages: "1-24", pdf: "/Pdfs/Papers_2018_2/1.pdf" },
-            // Add more papers...
+            { id: 226, title: "Research Paper 1", author: "Animesh Kumar & Mayuri Gupta", pages: "1-6", pdf: "/Pdfs/Papers27/1.pdf" },
+            { id: 227, title: "Research Paper 2", author: "Ritu Agarwal & Sakshi Yadav", pages: "7-15", pdf: "/Pdfs/Papers27/2.pdf" },
+            { id: 228, title: "Research Paper 3", author: "Aparajita Singh", pages: "16-24", pdf: "/Pdfs/Papers27/3.pdf" },
+            { id: 229, title: "Research Paper 4", author: "Kashyop Bhattacharjee & Mrigankalekha Paul", pages: "25-37", pdf: "/Pdfs/Papers27/4.pdf" },
+            { id: 230, title: "Research Paper 5", author: "Preeti Singh", pages: "38-46", pdf: "/Pdfs/Papers27/5.pdf" },
+            { id: 231, title: "Research Paper 6", author: "Dr. Meena Ketan Sahu", pages: "47-59", pdf: "/Pdfs/Papers27/6.pdf" },
+            { id: 232, title: "Research Paper 7", author: "Karabi Dihingia", pages: "60-69", pdf: "/Pdfs/Papers27/7.pdf" },
+            { id: 233, title: "Research Paper 8", author: "Ankit Srivastava & Divyansha Kumar", pages: "70-85", pdf: "/Pdfs/Papers27/8.pdf" },
+            { id: 234, title: "Research Paper 9", author: "Jyoti Yadav", pages: "86-98", pdf: "/Pdfs/Papers27/9.pdf" },
+            { id: 235, title: "Research Paper 10", author: "Ashutosh Shukla", pages: "99-110", pdf: "/Pdfs/Papers27/10.pdf" },
+            { id: 236, title: "Research Paper 11", author: "Ramya Eswaran", pages: "111-121", pdf: "/Pdfs/Papers27/11.pdf" },
+            { id: 237, title: "Research Paper 12", author: "Mayura Manohar Sabne", pages: "122-145", pdf: "/Pdfs/Papers27/12.pdf" },
+            { id: 238, title: "Research Paper 13", author: "Priyanka Bhowmik", pages: "122-145", pdf: "/Pdfs/Papers27/13.pdf" },
+            { id: 239, title: "Research Paper 14", author: "Priya Kala", pages: "122-145", pdf: "/Pdfs/Papers27/14.pdf" },
+            { id: 240, title: "Research Paper 15", author: "Diksha Dwivedi & Sonali Khanna", pages: "122-145", pdf: "/Pdfs/Papers27/15.pdf" },
+            { id: 241, title: "Research Paper 16", author: "Pooja Ghosh", pages: "122-145", pdf: "/Pdfs/Papers27/16.pdf" },
+            { id: 242, title: "Research Paper 17", author: "Sohini Mahapatra", pages: "122-145", pdf: "/Pdfs/Papers27/17.pdf" },
+            { id: 243, title: "Research Paper 18", author: "Shusneha Sarkar", pages: "122-145", pdf: "/Pdfs/Papers27/18.pdf" },
+            { id: 244, title: "Research Paper 19", author: "Abhivardhan", pages: "122-145", pdf: "/Pdfs/Papers27/19.pdf" },
+            { id: 245, title: "Research Paper 20", author: "Lakshay Bansal", pages: "122-145", pdf: "/Pdfs/Papers27/20.pdf" },
+            { id: 246, title: "Research Paper 21", author: "Pranav Kumar Kaushal", pages: "122-145", pdf: "/Pdfs/Papers27/21.pdf" },
+            { id: 247, title: "Research Paper 22", author: "Shivesh Raghuvanshi & Divyangi Singh", pages: "122-145", pdf: "/Pdfs/Papers27/22.pdf" },
           ]
         },
-        { 
-          id: 15, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2018, 
+        {
+          id: 15,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2018,
           pdf: "/Pdfs/LR_(3)_2018.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 54, title: "Paper Title", author: "Author Name", pages: "1-26", pdf: "/Pdfs/Papers_2018_3/1.pdf" },
-            // Add more papers...
+            { id: 248, title: "Research Paper 1", author: "K.M. Chetana Rukshani Karunatilaka", pages: "1-6", pdf: "/Pdfs/Papers14/1.pdf" },
+            { id: 249, title: "Research Paper 2", author: "Md. O. Faruque & Sk. Md. Habibullah ", pages: "7-15", pdf: "/Pdfs/Papers14/2.pdf" },
+            { id: 250, title: "Research Paper 3", author: "Jennifer Inez Martina Ehrenström", pages: "16-24", pdf: "/Pdfs/Papers14/3.pdf" },
+            { id: 251, title: "Research Paper 4", author: "Dr. P.R.L. Rajavenkatesan", pages: "25-37", pdf: "/Pdfs/Papers14/4.pdf" },
+            { id: 252, title: "Research Paper 5", author: "Dr. Shabnam Mahlawat", pages: "38-46", pdf: "/Pdfs/Papers14/5.pdf" },
+            { id: 253, title: "Research Paper 6", author: "Kiran Singh & Indra Kumar Singh", pages: "47-59", pdf: "/Pdfs/Papers14/6.pdf" },
+            { id: 254, title: "Research Paper 7", author: "Dr. E. Prema", pages: "60-69", pdf: "/Pdfs/Papers14/7.pdf" },
+            { id: 255, title: "Research Paper 8", author: "Aakriti Shahi", pages: "70-85", pdf: "/Pdfs/Papers14/8.pdf" },
+            { id: 256, title: "Research Paper 9", author: "Shachi Singh", pages: "86-98", pdf: "/Pdfs/Papers14/9.pdf" },
+            { id: 257, title: "Research Paper 10", author: "Dr. Shampa Dev & Mitraneshaa B. S", pages: "99-110", pdf: "/Pdfs/Papers14/10.pdf" },
+            { id: 258, title: "Research Paper 11", author: "Teena", pages: "111-121", pdf: "/Pdfs/Papers14/11.pdf" },
+            { id: 259, title: "Research Paper 12", author: "Pritam Mirdha & Yash Taleja", pages: "122-145", pdf: "/Pdfs/Papers14/12.pdf" },
+            { id: 260, title: "Research Paper 13", author: "Swati Singh Parmar", pages: "122-145", pdf: "/Pdfs/Papers14/13.pdf" },
+            { id: 261, title: "Research Paper 14", author: "Manika Baliyan", pages: "122-145", pdf: "/Pdfs/Papers14/14.pdf" },
+            { id: 262, title: "Research Paper 15", author: "Safia Tarannum Quraishi", pages: "122-145", pdf: "/Pdfs/Papers14/15.pdf" },
+            { id: 263, title: "Research Paper 16", author: "Sonali Khanna & Diksha Dwivedi", pages: "122-145", pdf: "/Pdfs/Papers14/16.pdf" },
           ]
         },
-        { 
-          id: 16, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2018, 
+        {
+          id: 16,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2018,
           pdf: "/Pdfs/LR_(4)_2018.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 55, title: "Paper Title", author: "Author Name", pages: "1-21", pdf: "/Pdfs/Papers_2018_4/1.pdf" },
-            // Add more papers...
+            { id: 264, title: "Research Paper 1", author: "Maj. Gen. P. K. Sharma (Retd.) & Govind Kumar Saxena", pages: "1-6", pdf: "/Pdfs/Papers15/1.pdf" },
+            { id: 265, title: "Research Paper 2", author: "Ashish Bansal & Sharmistha Sharma", pages: "7-15", pdf: "/Pdfs/Papers15/2.pdf" },
+            { id: 266, title: "Research Paper 3", author: "Kashish Soni & Priyanka Meena ", pages: "16-24", pdf: "/Pdfs/Papers15/3.pdf" },
+            { id: 267, title: "Research Paper 4", author: "Anumeet Kaur", pages: "25-37", pdf: "/Pdfs/Papers15/4.pdf" },
+            { id: 268, title: "Research Paper 5", author: "Rachi Singh & Apoorva Singh", pages: "38-46", pdf: "/Pdfs/Papers15/5.pdf" },
+            { id: 269, title: "Research Paper 6", author: "Nabin Bhandari", pages: "47-59", pdf: "/Pdfs/Papers15/6.pdf" },
+            { id: 270, title: "Research Paper 7", author: "Prem Singh Bisht", pages: "60-69", pdf: "/Pdfs/Papers15/7.pdf" },
+            { id: 271, title: "Research Paper 8", author: "Jelis Subhan", pages: "70-85", pdf: "/Pdfs/Papers15/8.pdf" },
+            { id: 272, title: "Research Paper 9", author: "Prashant Rahangdale", pages: "86-98", pdf: "/Pdfs/Papers15/9.pdf" },
+            { id: 273, title: "Research Paper 10", author: "Safia Tarannum Quraishi & Swapnil Pattanayak", pages: "99-110", pdf: "/Pdfs/Papers15/10.pdf" },
+            { id: 274, title: "Research Paper 11", author: "Shanya Agarwal & Shweta Singh", pages: "111-121", pdf: "/Pdfs/Papers15/11.pdf" },
+            { id: 275, title: "Research Paper 12", author: "Dr. Ajay Bhatt & Apoorv Bhardwaj", pages: "122-145", pdf: "/Pdfs/Papers15/12.pdf" },
+            { id: 276, title: "Research Paper 13", author: "Ankit Shrivastava", pages: "122-145", pdf: "/Pdfs/Papers15/13.pdf" },
+            { id: 277, title: "Research Paper 14", author: "Dr. Jaishree Umale", pages: "122-145", pdf: "/Pdfs/Papers15/14.pdf" },
           ]
         }
       ]
@@ -409,52 +470,64 @@ const Archives = () => {
       number: "V",
       year: 2019,
       issues: [
-        { 
-          id: 17, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2019, 
+        {
+          id: 17,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2019,
           pdf: "/Pdfs/LR_2019.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 56, title: "Paper Title", author: "Author Name", pages: "1-23", pdf: "/Pdfs/Papers_2019_1/1.pdf" },
-            // Add more papers...
+            { id: 278, title: "Research Paper 1", author: "Deepika Dwivedi & Dr. Vivek Kumar", pages: "1-6", pdf: "/Pdfs/Papers16/1.pdf" },
+            { id: 279, title: "Research Paper 2", author: "Lakshya Bansal", pages: "7-15", pdf: "/Pdfs/Papers16/2.pdf" },
+            { id: 280, title: "Research Paper 3", author: "Pranav Kumar Kaushal", pages: "16-24", pdf: "/Pdfs/Papers16/3.pdf" },
+            { id: 281, title: "Research Paper 4", author: "Pragati Tripathi", pages: "25-37", pdf: "/Pdfs/Papers16/4.pdf" },
+            { id: 282, title: "Research Paper 5", author: "Leena Latwal", pages: "38-46", pdf: "/Pdfs/Papers16/5.pdf" },
+            { id: 283, title: "Research Paper 6", author: "Abhivardhan", pages: "47-59", pdf: "/Pdfs/Papers16/6.pdf" },
           ]
         },
-        { 
-          id: 18, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2019, 
+        {
+          id: 18,
+          number: 2,
+          period: "APR-JUN",
+          year: 2019,
           pdf: "/Pdfs/LR_2019.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 57, title: "Paper Title", author: "Author Name", pages: "1-19", pdf: "/Pdfs/Papers_2019_2/1.pdf" },
-            // Add more papers...
+            { id: 278, title: "Research Paper 1", author: "Deepika Dwivedi & Dr. Vivek Kumar", pages: "1-6", pdf: "/Pdfs/Papers16/1.pdf" },
+            { id: 279, title: "Research Paper 2", author: "Lakshya Bansal", pages: "7-15", pdf: "/Pdfs/Papers16/2.pdf" },
+            { id: 280, title: "Research Paper 3", author: "Pranav Kumar Kaushal", pages: "16-24", pdf: "/Pdfs/Papers16/3.pdf" },
+            { id: 281, title: "Research Paper 4", author: "Pragati Tripathi", pages: "25-37", pdf: "/Pdfs/Papers16/4.pdf" },
+            { id: 282, title: "Research Paper 5", author: "Leena Latwal", pages: "38-46", pdf: "/Pdfs/Papers16/5.pdf" },
+            { id: 283, title: "Research Paper 6", author: "Abhivardhan", pages: "47-59", pdf: "/Pdfs/Papers16/6.pdf" },
           ]
         },
-        { 
-          id: 19, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2019, 
+        {
+          id: 19,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2019,
           pdf: "/Pdfs/LR_2019.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 58, title: "Paper Title", author: "Author Name", pages: "1-27", pdf: "/Pdfs/Papers_2019_3/1.pdf" },
-            // Add more papers...
+            { id: 278, title: "Research Paper 1", author: "Deepika Dwivedi & Dr. Vivek Kumar", pages: "1-6", pdf: "/Pdfs/Papers16/1.pdf" },
+            { id: 279, title: "Research Paper 2", author: "Lakshya Bansal", pages: "7-15", pdf: "/Pdfs/Papers16/2.pdf" },
+            { id: 280, title: "Research Paper 3", author: "Pranav Kumar Kaushal", pages: "16-24", pdf: "/Pdfs/Papers16/3.pdf" },
+            { id: 281, title: "Research Paper 4", author: "Pragati Tripathi", pages: "25-37", pdf: "/Pdfs/Papers16/4.pdf" },
+            { id: 282, title: "Research Paper 5", author: "Leena Latwal", pages: "38-46", pdf: "/Pdfs/Papers16/5.pdf" },
+            { id: 283, title: "Research Paper 6", author: "Abhivardhan", pages: "47-59", pdf: "/Pdfs/Papers16/6.pdf" },
           ]
         },
-        { 
-          id: 20, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2019, 
+        {
+          id: 20,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2019,
           pdf: "/Pdfs/LR_2019.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 59, title: "Paper Title", author: "Author Name", pages: "1-25", pdf: "/Pdfs/Papers_2019_4/1.pdf" },
-            // Add more papers...
+            { id: 278, title: "Research Paper 1", author: "Deepika Dwivedi & Dr. Vivek Kumar", pages: "1-6", pdf: "/Pdfs/Papers16/1.pdf" },
+            { id: 279, title: "Research Paper 2", author: "Lakshya Bansal", pages: "7-15", pdf: "/Pdfs/Papers16/2.pdf" },
+            { id: 280, title: "Research Paper 3", author: "Pranav Kumar Kaushal", pages: "16-24", pdf: "/Pdfs/Papers16/3.pdf" },
+            { id: 281, title: "Research Paper 4", author: "Pragati Tripathi", pages: "25-37", pdf: "/Pdfs/Papers16/4.pdf" },
+            { id: 282, title: "Research Paper 5", author: "Leena Latwal", pages: "38-46", pdf: "/Pdfs/Papers16/5.pdf" },
+            { id: 283, title: "Research Paper 6", author: "Abhivardhan", pages: "47-59", pdf: "/Pdfs/Papers16/6.pdf" },
           ]
         }
       ]
@@ -464,52 +537,92 @@ const Archives = () => {
       number: "VI",
       year: 2020,
       issues: [
-        { 
-          id: 21, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2020, 
+        {
+          id: 21,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2020,
           pdf: "/Pdfs/LR_(1)_2020.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 60, title: "Paper Title", author: "Author Name", pages: "1-20", pdf: "/Pdfs/Papers_2020_1/1.pdf" },
-            // Add more papers...
+            { id: 284, title: "Research Paper 1", author: "Mr. Abdulrahman Abdo Shawqi Subih & Dr.Visitsak Nueangnong", pages: "1-6", pdf: "/Pdfs/Papers14/1.pdf" },
+            { id: 285, title: "Research Paper 2", author: "Dr. Nighat Rasheed", pages: "7-15", pdf: "/Pdfs/Papers14/2.pdf" },
+            { id: 286, title: "Research Paper 3", author: "Dr. A. Vijayalalshmi", pages: "16-24", pdf: "/Pdfs/Papers14/3.pdf" },
+            { id: 287, title: "Research Paper 4", author: "Dr. Anu Prasannan", pages: "25-37", pdf: "/Pdfs/Papers14/4.pdf" },
+            { id: 288, title: "Research Paper 5", author: "Dr. Santosh Kumar Tripathi", pages: "38-46", pdf: "/Pdfs/Papers14/5.pdf" },
+            { id: 289, title: "Research Paper 6", author: "Dr. Chandni Sengupta", pages: "47-59", pdf: "/Pdfs/Papers14/6.pdf" },
+            { id: 290, title: "Research Paper 7", author: "Dr. Jaishree Umale", pages: "60-69", pdf: "/Pdfs/Papers14/7.pdf" },
+            { id: 291, title: "Research Paper 8", author: "Dr. M. Kalimullah & Aqsa Sikandar Fatima", pages: "70-85", pdf: "/Pdfs/Papers14/8.pdf" },
+            { id: 292, title: "Research Paper 9", author: "Dr. Gurmeet Kaur & Manjula Raghav", pages: "86-98", pdf: "/Pdfs/Papers14/9.pdf" },
+            { id: 293, title: "Research Paper 10", author: "Sugato Mukherjee", pages: "99-110", pdf: "/Pdfs/Papers14/10.pdf" },
+            { id: 294, title: "Research Paper 11", author: "Dr. Shiv Raman", pages: "111-121", pdf: "/Pdfs/Papers14/11.pdf" },
+            { id: 295, title: "Research Paper 12", author: "Dr. M. Kalimullah & Afreen Rizvi", pages: "122-145", pdf: "/Pdfs/Papers14/12.pdf" },
+            { id: 296, title: "Research Paper 13", author: "Dr. Vijay Pal Singh", pages: "122-145", pdf: "/Pdfs/Papers14/13.pdf" },
+            { id: 297, title: "Research Paper 14", author: "Rishabh Jain & Sanjum Bedi", pages: "122-145", pdf: "/Pdfs/Papers14/14.pdf" },
+            { id: 298, title: "Research Paper 15", author: "Nitin Agarwal & Prof. (Dr.) Ajay Bhatt", pages: "122-145", pdf: "/Pdfs/Papers14/15.pdf" },
+            { id: 299, title: "Research Paper 16", author: "Prashant Rahangdale", pages: "122-145", pdf: "/Pdfs/Papers14/16.pdf" },
+            { id: 300, title: "Research Paper 17", author: "Pranjal Sharma & Hemendra Singh Sever", pages: "122-145", pdf: "/Pdfs/Papers14/17.pdf" },
+            { id: 301, title: "Research Paper 18", author: "Monica Yadav & Aalamjit Singh Thethi", pages: "122-145", pdf: "/Pdfs/Papers14/18.pdf" },
+            { id: 302, title: "Research Paper 19", author: "Sunidhi Hegde", pages: "122-145", pdf: "/Pdfs/Papers14/19.pdf" },
+            { id: 303, title: "Research Paper 20", author: "Papiya Golder", pages: "122-145", pdf: "/Pdfs/Papers14/20.pdf" },
+            { id: 304, title: "Research Paper 21", author: "Prof. (Dr.) Komal Audichya", pages: "122-145", pdf: "/Pdfs/Papers14/21.pdf" },
+            { id: 305, title: "Research Paper 22", author: "Neha Mishra", pages: "122-145", pdf: "/Pdfs/Papers14/22.pdf" },
+            { id: 306, title: "Research Paper 23", author: "Atul Jain", pages: "122-145", pdf: "/Pdfs/Papers14/23.pdf" },
+            { id: 307, title: "Research Paper 24", author: "Kapil Bissa & Kamayani Tripathi", pages: "122-145", pdf: "/Pdfs/Papers14/24.pdf" },
+            { id: 308, title: "Research Paper 25", author: "Sanjay Pandey", pages: "122-145", pdf: "/Pdfs/Papers14/25.pdf" },
+            { id: 309, title: "Research Paper 26", author: "Anusree Telfy.C", pages: "122-145", pdf: "/Pdfs/Papers14/26.pdf" },
+            { id: 310, title: "Research Paper 27", author: "Asha Meena", pages: "122-145", pdf: "/Pdfs/Papers14/27.pdf" },
+            { id: 311, title: "Research Paper 28", author: "Rachi Singh", pages: "122-145", pdf: "/Pdfs/Papers14/28.pdf" },
+            { id: 312, title: "Research Paper 29", author: "Govind Kumar Saxena", pages: "122-145", pdf: "/Pdfs/Papers14/29.pdf" },
+            { id: 313, title: "Research Paper 30", author: "Dr. Deepak Miglani & Divyansh Mahajan", pages: "122-145", pdf: "/Pdfs/Papers14/30.pdf" },
+            { id: 314, title: "Research Paper 31", author: "Pranshul Pathak", pages: "122-145", pdf: "/Pdfs/Papers14/31.pdf" },
+            { id: 315, title: "Research Paper 32", author: "Rachi Singh", pages: "122-145", pdf: "/Pdfs/Papers14/21.pdf" },
           ]
         },
-        { 
-          id: 22, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2020, 
+        {
+          id: 22,
+          number: 2,
+          period: "APR-JUN",
+          year: 2020,
           pdf: "/Pdfs/LR_(2)_2020.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 61, title: "Paper Title", author: "Author Name", pages: "1-22", pdf: "/Pdfs/Papers_2020_2/1.pdf" },
-            // Add more papers...
+            { id: 316, title: "Research Paper 1", author: "Kaanchi Ahuja", pages: "1-6", pdf: "/Pdfs/Papers18/1.pdf" },
+            { id: 317, title: "Research Paper 2", author: "Nandini Modi & Vasundhara Gupta ", pages: "7-15", pdf: "/Pdfs/Papers18/2.pdf" },
+            { id: 318, title: "Research Paper 3", author: "Vaishnavi Bansal & Swikruti Nayak", pages: "16-24", pdf: "/Pdfs/Papers18/3.pdf" },
+            { id: 319, title: "Research Paper 4", author: "Kavya Budhiraja", pages: "25-37", pdf: "/Pdfs/Papers18/4.pdf" },
+            { id: 320, title: "Research Paper 5", author: "Manisha Patawari", pages: "38-46", pdf: "/Pdfs/Papers18/5.pdf" },
+            { id: 321, title: "Research Paper 6", author: "Ozasvi Amol & Fariya Sharaf", pages: "47-59", pdf: "/Pdfs/Papers18/6.pdf" },
+            { id: 322, title: "Research Paper 7", author: "Priyanka", pages: "38-46", pdf: "/Pdfs/Papers18/7.pdf" },
+            { id: 323, title: "Research Paper 8", author: "Amita Namdeo & Ananya Saxena", pages: "47-59", pdf: "/Pdfs/Papers18/8.pdf" },
           ]
         },
-        { 
-          id: 23, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2020, 
+        {
+          id: 23,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2020,
           pdf: "/Pdfs/LR_(3)_2020.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 62, title: "Paper Title", author: "Author Name", pages: "1-28", pdf: "/Pdfs/Papers_2020_3/1.pdf" },
-            // Add more papers...
+            { id: 324, title: "Research Paper 1", author: "Nitumoni Gogoi & Bhupali Saikia", pages: "1-6", pdf: "/Pdfs/Papers19/1.pdf" },
+            { id: 325, title: "Research Paper 2", author: "Rima Ghosh & Dr. Shova Devi  ", pages: "7-15", pdf: "/Pdfs/Papers19/2.pdf" },
+            { id: 326, title: "Research Paper 3", author: "Samiksha Mathur ", pages: "16-24", pdf: "/Pdfs/Papers19/3.pdf" },
+            { id: 327, title: "Research Paper 4", author: "Misha Jain", pages: "25-37", pdf: "/Pdfs/Papers19/4.pdf" },
+            { id: 328, title: "Research Paper 5", author: "Palak Agrawal", pages: "38-46", pdf: "/Pdfs/Papers19/5.pdf" },
+            { id: 329, title: "Research Paper 6", author: "Priyanka", pages: "47-59", pdf: "/Pdfs/Papers19/6.pdf" },
           ]
         },
-        { 
-          id: 24, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2020, 
+        {
+          id: 24,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2020,
           pdf: "/Pdfs/LR_(4)_2020.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 63, title: "Paper Title", author: "Author Name", pages: "1-24", pdf: "/Pdfs/Papers_2020_4/1.pdf" },
-            // Add more papers...
+            { id: 330, title: "Research Paper 1", author: "Dr. Jasdeep Kaur", pages: "1-6", pdf: "/Pdfs/Papers20/1.pdf" },
+            { id: 331, title: "Research Paper 2", author: "Snigdha Gupta & Mayuri Gupta", pages: "7-15", pdf: "/Pdfs/Papers20/2.pdf" },
+            { id: 332, title: "Research Paper 3", author: "Akshay Bhargava ", pages: "16-24", pdf: "/Pdfs/Papers20/3.pdf" },
+            { id: 333, title: "Research Paper 4", author: "Vinal Sharma", pages: "25-37", pdf: "/Pdfs/Papers20/4.pdf" },
+            { id: 334, title: "Research Paper 5", author: "Palak Agrawal", pages: "38-46", pdf: "/Pdfs/Papers20/5.pdf" },
+            { id: 345, title: "Research Paper 6", author: "Kanchan Thakur & Prof. Dr. N. L. Gurjar", pages: "47-59", pdf: "/Pdfs/Papers20/6.pdf" },
           ]
         }
       ]
@@ -519,44 +632,73 @@ const Archives = () => {
       number: "VII",
       year: 2021,
       issues: [
-        { 
-          id: 25, 
-          number: 1, 
-          period: "JAN-MAR", 
+        {
+          id: 25,
+          number: 1,
+          period: "JAN-MAR",
           year: 2021,
-          // pdf: null, // Not available
+          pdf: "/Pdfs/LR_(4)_2021.pdf",
           papers: [
-            // UPDATE: Add actual paper data here if available
+            { id: 346, title: "Research Paper 1", author: "Dr. Y. Papa Rao", pages: "1-6", pdf: "/Pdfs/Papers21/1.pdf" },
+            { id: 347, title: "Research Paper 2", author: "Naman Kumar ", pages: "7-15", pdf: "/Pdfs/Papers21/2.pdf" },
+            { id: 348, title: "Research Paper 3", author: "Shalanki Prasad & Suraj Singh Pundir", pages: "16-24", pdf: "/Pdfs/Papers21/3.pdf" },
+            { id: 349, title: "Research Paper 4", author: "Reena Dangal & Durjay Kumar Deb", pages: "25-37", pdf: "/Pdfs/Papers21/4.pdf" },
           ]
         },
-        { 
-          id: 26, 
-          number: 2, 
-          period: "APR-JUN", 
+        {
+          id: 26,
+          number: 2,
+          period: "APR-JUN",
           year: 2021,
-          // pdf: null, // Not available
+          pdf: "/Pdfs/LR_(4)_2021.pdf",
           papers: [
-            // UPDATE: Add actual paper data here if available
+            { id: 350, title: "Research Paper 1", author: "Kumar Kunal", pages: "1-6", pdf: "/Pdfs/Papers22/1.pdf" },
+            { id: 351, title: "Research Paper 2", author: "Indibar Saraswati Phukan", pages: "7-15", pdf: "/Pdfs/Papers22/2.pdf" },
+            { id: 352, title: "Research Paper 3", author: "Shipra Mishra", pages: "16-24", pdf: "/Pdfs/Papers22/3.pdf" },
+            { id: 353, title: "Research Paper 4", author: "Shiva Joshi", pages: "25-37", pdf: "/Pdfs/Papers22/4.pdf" },
+            { id: 354, title: "Research Paper 5", author: "Dr. Satish Chandra Upadhyay", pages: "1-6", pdf: "/Pdfs/Papers22/5.pdf" },
+            { id: 355, title: "Research Paper 6", author: "Divyansh", pages: "7-15", pdf: "/Pdfs/Papers22/6.pdf" },
+            { id: 356, title: "Research Paper 7", author: "Paritosh Prakash", pages: "16-24", pdf: "/Pdfs/Papers22/7.pdf" },
+            { id: 357, title: "Research Paper 8", author: "Siddharth Anand", pages: "25-37", pdf: "/Pdfs/Papers22/8.pdf" },
           ]
         },
-        { 
-          id: 27, 
-          number: 3, 
-          period: "JUL-SEP", 
+        {
+          id: 27,
+          number: 3,
+          period: "JUL-SEP",
           year: 2021,
-          // pdf: null, // Not available
+          pdf: "/Pdfs/LR_(4)_2021.pdf",
           papers: [
-            // UPDATE: Add actual paper data here if available
+            { id: 358, title: "Research Paper 1", author: "M. Pranov Vishnu Arjun & Mrs. Chameli ", pages: "1-6", pdf: "/Pdfs/Papers23/1.pdf" },
+            { id: 359, title: "Research Paper 2", author: "Priyanka", pages: "7-15", pdf: "/Pdfs/Papers23/2.pdf" },
+            { id: 360, title: "Research Paper 3", author: "Ashutosh Shukla", pages: "16-24", pdf: "/Pdfs/Papers23/3.pdf" },
+            { id: 361, title: "Research Paper 4", author: "Kanchan Thakur & Dr. N. L. Gurger", pages: "25-37", pdf: "/Pdfs/Papers23/4.pdf" },
+            { id: 362, title: "Research Paper 5", author: "Snigdha Gupta", pages: "1-6", pdf: "/Pdfs/Papers23/5.pdf" },
           ]
         },
-        { 
-          id: 28, 
-          number: 4, 
-          period: "OCT-DEC", 
+        {
+          id: 28,
+          number: 4,
+          period: "OCT-DEC",
           year: 2021,
-          // pdf: null, // Not available
+          pdf: "/Pdfs/LR_(4)_2021.pdf",
           papers: [
-            // UPDATE: Add actual paper data here if available
+            { id: 363, title: "Research Paper 1", author: "Tanvin Anand & Nidhi Kaushik ", pages: "1-6", pdf: "/Pdfs/Papers24/1.pdf" },
+            { id: 364, title: "Research Paper 2", author: "Ms. Muskaan Pandeya", pages: "7-15", pdf: "/Pdfs/Papers24/2.pdf" },
+            { id: 365, title: "Research Paper 3", author: "Ms. Chhavi Chauhan", pages: "16-24", pdf: "/Pdfs/Papers24/3.pdf" },
+            { id: 366, title: "Research Paper 4", author: "Ms. Aswathi Sudheer", pages: "25-37", pdf: "/Pdfs/Papers24/4.pdf" },
+            { id: 367, title: "Research Paper 5", author: "Mr. Mayank Mishra", pages: "1-6", pdf: "/Pdfs/Papers24/5.pdf" },
+            { id: 368, title: "Research Paper 6", author: "Mr. Dharam Vashisht", pages: "7-15", pdf: "/Pdfs/Papers24/6.pdf" },
+            { id: 369, title: "Research Paper 7", author: "Dr. Vinay Sharma", pages: "16-24", pdf: "/Pdfs/Papers24/7.pdf" },
+            { id: 370, title: "Research Paper 8", author: "Dr. Narender Kumar", pages: "25-37", pdf: "/Pdfs/Papers24/8.pdf" },
+            { id: 371, title: "Research Paper 9", author: "Dr. AK Vashishta", pages: "1-6", pdf: "/Pdfs/Papers24/9.pdf" },
+            { id: 372, title: "Research Paper 10", author: "Dr. Santosh K Tripathi", pages: "7-15", pdf: "/Pdfs/Papers24/10.pdf" },
+            { id: 373, title: "Research Paper 11", author: "Mr. Sanjay Kumar Pandey", pages: "16-24", pdf: "/Pdfs/Papers24/11.pdf" },
+            { id: 374, title: "Research Paper 12", author: "Ms Sanjum Bedi", pages: "25-37", pdf: "/Pdfs/Papers24/12.pdf" },
+            { id: 375, title: "Research Paper 13", author: "Mr. Zeeshan Hussain Hashmi", pages: "1-6", pdf: "/Pdfs/Papers24/13.pdf" },
+            { id: 376, title: "Research Paper 14", author: "Dr. Vijay Pal Singh & Ms. Asha Meena", pages: "7-15", pdf: "/Pdfs/Papers24/14.pdf" },
+            { id: 377, title: "Research Paper 15", author: "Ms. Nidhi Sharma & Dr. Shiv Raman ", pages: "16-24", pdf: "/Pdfs/Papers24/15.pdf" },
+            { id: 378, title: "Research Paper 16", author: "Prof. (Dr.) Ajay Kumar Bhatt ", pages: "25-37", pdf: "/Pdfs/Papers24/16.pdf" },
           ]
         }
       ]
@@ -566,52 +708,76 @@ const Archives = () => {
       number: "VIII",
       year: 2022,
       issues: [
-        { 
-          id: 29, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2022, 
+        {
+          id: 29,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2022,
           pdf: "/Pdfs/LR_2022.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 64, title: "Paper Title", author: "Author Name", pages: "1-26", pdf: "/Pdfs/Papers_2022_1/1.pdf" },
-            // Add more papers...
+            { id: 379, title: "Research Paper 1", author: "Dr. Akhilesh Yadav", pages: "1-6", pdf: "/Pdfs/Papers25/1.pdf" },
+            { id: 380, title: "Research Paper 2", author: "Adrija Ghosh", pages: "7-15", pdf: "/Pdfs/Papers25/2.pdf" },
+            { id: 381, title: "Research Paper 3", author: "Richa Kaur", pages: "16-24", pdf: "/Pdfs/Papers25/3.pdf" },
+            { id: 382, title: "Research Paper 4", author: "Rakesh Kumar Choudhary", pages: "25-37", pdf: "/Pdfs/Papers25/4.pdf" },
+            { id: 383, title: "Research Paper 5", author: "Shikha Saharawat", pages: "1-6", pdf: "/Pdfs/Papers25/5.pdf" },
+            { id: 384, title: "Research Paper 6", author: "Aryan Sinha", pages: "7-15", pdf: "/Pdfs/Papers25/6.pdf" },
+            { id: 385, title: "Research Paper 7", author: "Srishti Sori", pages: "16-24", pdf: "/Pdfs/Papers25/7.pdf" },
+            { id: 386, title: "Research Paper 8", author: "Priyanka", pages: "25-37", pdf: "/Pdfs/Papers25/8.pdf" },
+            { id: 387, title: "Research Paper 9", author: "Manish Kumar", pages: "1-6", pdf: "/Pdfs/Papers25/9.pdf" },
           ]
         },
-        { 
-          id: 30, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2022, 
+        {
+          id: 30,
+          number: 2,
+          period: "APR-JUN",
+          year: 2022,
           pdf: "/Pdfs/LR_2022.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 65, title: "Paper Title", author: "Author Name", pages: "1-23", pdf: "/Pdfs/Papers_2022_2/1.pdf" },
-            // Add more papers...
+            { id: 379, title: "Research Paper 1", author: "Dr. Akhilesh Yadav", pages: "1-6", pdf: "/Pdfs/Papers25/1.pdf" },
+            { id: 380, title: "Research Paper 2", author: "Adrija Ghosh", pages: "7-15", pdf: "/Pdfs/Papers25/2.pdf" },
+            { id: 381, title: "Research Paper 3", author: "Richa Kaur", pages: "16-24", pdf: "/Pdfs/Papers25/3.pdf" },
+            { id: 382, title: "Research Paper 4", author: "Rakesh Kumar Choudhary", pages: "25-37", pdf: "/Pdfs/Papers25/4.pdf" },
+            { id: 383, title: "Research Paper 5", author: "Shikha Saharawat", pages: "1-6", pdf: "/Pdfs/Papers25/5.pdf" },
+            { id: 384, title: "Research Paper 6", author: "Aryan Sinha", pages: "7-15", pdf: "/Pdfs/Papers25/6.pdf" },
+            { id: 385, title: "Research Paper 7", author: "Srishti Sori", pages: "16-24", pdf: "/Pdfs/Papers25/7.pdf" },
+            { id: 386, title: "Research Paper 8", author: "Priyanka", pages: "25-37", pdf: "/Pdfs/Papers25/8.pdf" },
+            { id: 387, title: "Research Paper 9", author: "Manish Kumar", pages: "1-6", pdf: "/Pdfs/Papers25/9.pdf" },
           ]
         },
-        { 
-          id: 31, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2022, 
+        {
+          id: 31,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2022,
           pdf: "/Pdfs/LR_2022.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 66, title: "Paper Title", author: "Author Name", pages: "1-29", pdf: "/Pdfs/Papers_2022_3/1.pdf" },
-            // Add more papers...
+            { id: 379, title: "Research Paper 1", author: "Dr. Akhilesh Yadav", pages: "1-6", pdf: "/Pdfs/Papers25/1.pdf" },
+            { id: 380, title: "Research Paper 2", author: "Adrija Ghosh", pages: "7-15", pdf: "/Pdfs/Papers25/2.pdf" },
+            { id: 381, title: "Research Paper 3", author: "Richa Kaur", pages: "16-24", pdf: "/Pdfs/Papers25/3.pdf" },
+            { id: 382, title: "Research Paper 4", author: "Rakesh Kumar Choudhary", pages: "25-37", pdf: "/Pdfs/Papers25/4.pdf" },
+            { id: 383, title: "Research Paper 5", author: "Shikha Saharawat", pages: "1-6", pdf: "/Pdfs/Papers25/5.pdf" },
+            { id: 384, title: "Research Paper 6", author: "Aryan Sinha", pages: "7-15", pdf: "/Pdfs/Papers25/6.pdf" },
+            { id: 385, title: "Research Paper 7", author: "Srishti Sori", pages: "16-24", pdf: "/Pdfs/Papers25/7.pdf" },
+            { id: 386, title: "Research Paper 8", author: "Priyanka", pages: "25-37", pdf: "/Pdfs/Papers25/8.pdf" },
+            { id: 387, title: "Research Paper 9", author: "Manish Kumar", pages: "1-6", pdf: "/Pdfs/Papers25/9.pdf" },
           ]
         },
-        { 
-          id: 32, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2022, 
+        {
+          id: 32,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2022,
           pdf: "/Pdfs/LR_2022.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 67, title: "Paper Title", author: "Author Name", pages: "1-21", pdf: "/Pdfs/Papers_2022_4/1.pdf" },
-            // Add more papers...
+            { id: 379, title: "Research Paper 1", author: "Dr. Akhilesh Yadav", pages: "1-6", pdf: "/Pdfs/Papers25/1.pdf" },
+            { id: 380, title: "Research Paper 2", author: "Adrija Ghosh", pages: "7-15", pdf: "/Pdfs/Papers25/2.pdf" },
+            { id: 381, title: "Research Paper 3", author: "Richa Kaur", pages: "16-24", pdf: "/Pdfs/Papers25/3.pdf" },
+            { id: 382, title: "Research Paper 4", author: "Rakesh Kumar Choudhary", pages: "25-37", pdf: "/Pdfs/Papers25/4.pdf" },
+            { id: 383, title: "Research Paper 5", author: "Shikha Saharawat", pages: "1-6", pdf: "/Pdfs/Papers25/5.pdf" },
+            { id: 384, title: "Research Paper 6", author: "Aryan Sinha", pages: "7-15", pdf: "/Pdfs/Papers25/6.pdf" },
+            { id: 385, title: "Research Paper 7", author: "Srishti Sori", pages: "16-24", pdf: "/Pdfs/Papers25/7.pdf" },
+            { id: 386, title: "Research Paper 8", author: "Priyanka", pages: "25-37", pdf: "/Pdfs/Papers25/8.pdf" },
+            { id: 387, title: "Research Paper 9", author: "Manish Kumar", pages: "1-6", pdf: "/Pdfs/Papers25/9.pdf" },
           ]
         }
       ]
@@ -621,52 +787,82 @@ const Archives = () => {
       number: "IX",
       year: 2023,
       issues: [
-        { 
-          id: 33, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2023, 
+        {
+          id: 33,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2023,
           pdf: "/Pdfs/LR_(1)_2023.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 68, title: "Paper Title", author: "Author Name", pages: "1-25", pdf: "/Pdfs/Papers_2023_1/1.pdf" },
-            // Add more papers...
+            { id: 388, title: "Research Paper 1", author: "Dr. Y. Papa Rao & Manish Kumar Mahto", pages: "1-6", pdf: "/Pdfs/Papers26/1.pdf" },
+            { id: 389, title: "Research Paper 2", author: "Dr. Ankit Awasthi, Smriti Kashyap & Barkha Dodai", pages: "7-15", pdf: "/Pdfs/Papers26/2.pdf" },
+            { id: 390, title: "Research Paper 3", author: "Fanisi Babatunde", pages: "16-24", pdf: "/Pdfs/Papers26/3.pdf" },
+            { id: 391, title: "Research Paper 4", author: "Dr. Preeti Singh & Dr. Avnish Singh", pages: "25-37", pdf: "/Pdfs/Papers26/4.pdf" },
+            { id: 392, title: "Research Paper 5", author: "Shivpriya & Prof. (Dr.) Preeti Misra", pages: "1-6", pdf: "/Pdfs/Papers26/5.pdf" },
+            { id: 393, title: "Research Paper 6", author: "Dr. Nitin R Kumbhar", pages: "7-15", pdf: "/Pdfs/Papers26/6.pdf" },
+            { id: 394, title: "Research Paper 7", author: "Priyanka", pages: "16-24", pdf: "/Pdfs/Papers26/7.pdf" },
+            { id: 395, title: "Research Paper 8", author: "Anil Kapoor, Narender Kumar & Naren Zangm", pages: "25-37", pdf: "/Pdfs/Papers26/8.pdf" },
+            { id: 396, title: "Research Paper 9", author: "Ghanshyam Dos & Dr. Doa Naqvi", pages: "1-6", pdf: "/Pdfs/Papers26/9.pdf" },
+            { id: 397, title: "Research Paper 10", author: "Sujata Paul", pages: "1-6", pdf: "/Pdfs/Papers26/10.pdf" },
+            { id: 398, title: "Research Paper 11", author: "Shambhavi Tripathi & Meher Sachdev", pages: "7-15", pdf: "/Pdfs/Papers26/11.pdf" },
+            { id: 399, title: "Research Paper 12", author: "Sukriti Agrawal", pages: "16-24", pdf: "/Pdfs/Papers26/12.pdf" },
           ]
         },
-        { 
-          id: 34, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2023, 
+        {
+          id: 34,
+          number: 2,
+          period: "APR-JUN",
+          year: 2023,
           pdf: "/Pdfs/LR_(2)_2023.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 69, title: "Paper Title", author: "Author Name", pages: "1-27", pdf: "/Pdfs/Papers_2023_2/1.pdf" },
-            // Add more papers...
+            { id: 400, title: "Research Paper 1", author: "Dr. Simmi Virk", pages: "1-6", pdf: "/Pdfs/Papers28/1.pdf" },
+            { id: 401, title: "Research Paper 2", author: "M. T. Thomas & N. L. MUNTING", pages: "7-15", pdf: "/Pdfs/Papers28/2.pdf" },
+            { id: 402, title: "Research Paper 3", author: "Ashwini Kumar Sahu & Dr. Laxmikanta Das", pages: "16-24", pdf: "/Pdfs/Papers28/3.pdf" },
+            { id: 403, title: "Research Paper 4", author: "Rahul Jain", pages: "25-37", pdf: "/Pdfs/Papers28/4.pdf" },
+            { id: 404, title: "Research Paper 5", author: "Debarun Mukherjee", pages: "1-6", pdf: "/Pdfs/Papers28/5.pdf" },
+            { id: 405, title: "Research Paper 6", author: "Dr. Krishna Mohan Malviya & Dr. Sushim Shukla", pages: "7-15", pdf: "/Pdfs/Papers28/6.pdf" },
+            { id: 406, title: "Research Paper 7", author: "Vedanti Singhal", pages: "16-24", pdf: "/Pdfs/Papers28/7.pdf" },
+            { id: 407, title: "Research Paper 8", author: "Shreeya", pages: "25-37", pdf: "/Pdfs/Papers28/8.pdf" },
+            { id: 408, title: "Research Paper 9", author: "Priyanka", pages: "1-6", pdf: "/Pdfs/Papers28/9.pdf" },
+            { id: 409, title: "Research Paper 10", author: "Rohit Sharma & Prabhat Deep", pages: "1-6", pdf: "/Pdfs/Papers28/10.pdf" },
+            { id: 410, title: "Research Paper 11", author: "Sava Vishnu Vardhan & Chejarla Sowmya Sree", pages: "7-15", pdf: "/Pdfs/Papers28/11.pdf" },
+            { id: 411, title: "Research Paper 12", author: "Bhavya Goswami", pages: "16-24", pdf: "/Pdfs/Papers28/12.pdf" },
           ]
         },
-        { 
-          id: 35, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2023, 
+        {
+          id: 35,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2023,
           pdf: "/Pdfs/LR_(3)_2023.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 70, title: "Paper Title", author: "Author Name", pages: "1-30", pdf: "/Pdfs/Papers_2023_3/1.pdf" },
-            // Add more papers...
+            { id: 412, title: "Research Paper 1", author: "Anil Kapoor, Naren Zangmo, & Kailash Chand ", pages: "1-6", pdf: "/Pdfs/Papers29/1.pdf" },
+            { id: 413, title: "Research Paper 2", author: "Dr. Caesar Roy", pages: "7-15", pdf: "/Pdfs/Papers29/2.pdf" },
+            { id: 414, title: "Research Paper 3", author: "Niraj Pandey", pages: "16-24", pdf: "/Pdfs/Papers29/3.pdf" },
+            { id: 415, title: "Research Paper 4", author: "Priyanka", pages: "25-37", pdf: "/Pdfs/Papers29/4.pdf" },
+            { id: 416, title: "Research Paper 5", author: "Prof Sunita Yadav", pages: "1-6", pdf: "/Pdfs/Papers29/5.pdf" },
+            { id: 417, title: "Research Paper 6", author: "Dr. Mridula Sharda & Ankita Dhawan", pages: "7-15", pdf: "/Pdfs/Papers29/6.pdf" },
+            { id: 418, title: "Research Paper 7", author: "Ram Dular Sonkarl", pages: "16-24", pdf: "/Pdfs/Papers29/7.pdf" },
+            { id: 429, title: "Research Paper 8", author: "Dr. Aarushi Batra, Shubham Bishnoi, & Sai Jahnavi Thota", pages: "25-37", pdf: "/Pdfs/Papers29/8.pdf" },
           ]
         },
-        { 
-          id: 36, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2023, 
+        {
+          id: 36,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2023,
           pdf: "/Pdfs/LR_(4)_2023.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 71, title: "Paper Title", author: "Author Name", pages: "1-22", pdf: "/Pdfs/Papers_2023_4/1.pdf" },
-            // Add more papers...
+            { id: 430, title: "Research Paper 1", author: "Krishna Kumar Bhasker & Dr. Shiv Bahadur Tiwari ", pages: "1-6", pdf: "/Pdfs/Papers30/1.pdf" },
+            { id: 431, title: "Research Paper 2", author: "Mayank Dubey", pages: "7-15", pdf: "/Pdfs/Papers30/2.pdf" },
+            { id: 432, title: "Research Paper 3", author: "Anita Verma ", pages: "16-24", pdf: "/Pdfs/Papers30/3.pdf" },
+            { id: 433, title: "Research Paper 4", author: "Rohan Rajeev Ghosh", pages: "25-37", pdf: "/Pdfs/Papers30/4.pdf" },
+            { id: 434, title: "Research Paper 5", author: "Vanshika Shukla", pages: "1-6", pdf: "/Pdfs/Papers30/5.pdf" },
+            { id: 435, title: "Research Paper 6", author: "Anil Kapoor", pages: "7-15", pdf: "/Pdfs/Papers30/6.pdf" },
+            { id: 436, title: "Research Paper 7", author: "Dr. Satish Chandra Upadhyay", pages: "16-24", pdf: "/Pdfs/Papers30/7.pdf" },
+            { id: 437, title: "Research Paper 8", author: "Ana Sisodia & Prof. (Dr.) Reena Bishnoi", pages: "25-37", pdf: "/Pdfs/Papers30/8.pdf" },
+            { id: 438, title: "Research Paper 9", author: "Dr. Manu Sharma & Dr. R. K. Singh", pages: "1-6", pdf: "/Pdfs/Papers30/9.pdf" },
+            { id: 439, title: "Research Paper 10", author: "Dr. Yamala Papa Rao & Ritika Yadu", pages: "1-6", pdf: "/Pdfs/Papers30/10.pdf" },
           ]
         }
       ]
@@ -676,52 +872,73 @@ const Archives = () => {
       number: "X",
       year: 2024,
       issues: [
-        { 
-          id: 37, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2024, 
+        {
+          id: 37,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2024,
           pdf: "/Pdfs/LR_(1)_2024.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 72, title: "Paper Title", author: "Author Name", pages: "1-24", pdf: "/Pdfs/Papers_2024_1/1.pdf" },
-            // Add more papers...
+            { id: 440, title: "Research Paper 1", author: "Prantik Basak & Jhilike Saha", pages: "1-6", pdf: "/Pdfs/Papers31/1.pdf" },
+            { id: 441, title: "Research Paper 2", author: "Dr. Rajwinder Kaur", pages: "7-15", pdf: "/Pdfs/Papers31/2.pdf" },
+            { id: 442, title: "Research Paper 3", author: "Dr. Rachna Sharma & Jashandeep Kaur", pages: "16-24", pdf: "/Pdfs/Papers31/3.pdf" },
+            { id: 443, title: "Research Paper 4", author: "Akansha Pandey", pages: "25-37", pdf: "/Pdfs/Papers31/4.pdf" },
+            { id: 444, title: "Research Paper 5", author: "Anita Verma", pages: "1-6", pdf: "/Pdfs/Papers31/5.pdf" },
+            { id: 445, title: "Research Paper 6", author: "Vineeta Kumari Chowdhary", pages: "7-15", pdf: "/Pdfs/Papers31/6.pdf" },
+            { id: 446, title: "Research Paper 7", author: "Dr. Priyanka Mohod & Ayushi", pages: "16-24", pdf: "/Pdfs/Papers31/7.pdf" },
+            { id: 447, title: "Research Paper 8", author: "Shikha Vasishta", pages: "25-37", pdf: "/Pdfs/Papers31/8.pdf" },
+            { id: 448, title: "Research Paper 9", author: "Ritu Muppidi & Shivani Pranesh", pages: "1-6", pdf: "/Pdfs/Papers31/9.pdf" },
+            { id: 449, title: "Research Paper 10", author: "Aditya Kumar", pages: "1-6", pdf: "/Pdfs/Papers31/10.pdf" },
           ]
         },
-        { 
-          id: 38, 
-          number: 2, 
-          period: "APR-JUN", 
-          year: 2024, 
+        {
+          id: 38,
+          number: 2,
+          period: "APR-JUN",
+          year: 2024,
           pdf: "/Pdfs/LR_(2)_2024.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 73, title: "Paper Title", author: "Author Name", pages: "1-28", pdf: "/Pdfs/Papers_2024_2/1.pdf" },
-            // Add more papers...
+            { id: 450, title: "Research Paper 1", author: "Anil Kapoor & Dr. Pawan Kumar", pages: "1-6", pdf: "/Pdfs/Papers32/1.pdf" },
+            { id: 451, title: "Research Paper 2", author: "Aman Singh ", pages: "7-15", pdf: "/Pdfs/Papers32/2.pdf" },
+            { id: 452, title: "Research Paper 3", author: "Dr. Shiv Shankar Singh", pages: "16-24", pdf: "/Pdfs/Papers32/3.pdf" },
+            { id: 453, title: "Research Paper 4", author: "Jasmine Gill & Arnav Goel", pages: "25-37", pdf: "/Pdfs/Papers32/4.pdf" },
+            { id: 454, title: "Research Paper 5", author: "Dr. Sandeep Kumar & Akanksha Sharma", pages: "1-6", pdf: "/Pdfs/Papers32/5.pdf" },
+            { id: 455, title: "Research Paper 6", author: "Priya Tiwari", pages: "7-15", pdf: "/Pdfs/Papers32/6.pdf" },
+            { id: 456, title: "Research Paper 7", author: "Dr. Shruti Goyal & Dr. Geetika Walia", pages: "16-24", pdf: "/Pdfs/Papers32/7.pdf" },
+            { id: 457, title: "Research Paper 8", author: "Khushboo Dudeja", pages: "25-37", pdf: "/Pdfs/Papers32/8.pdf" },
+            { id: 458, title: "Research Paper 9", author: "Yerragudla Vikranth & Dr. Ankit Awasthi", pages: "1-6", pdf: "/Pdfs/Papers32/9.pdf" },
           ]
         },
-        { 
-          id: 39, 
-          number: 3, 
-          period: "JUL-SEP", 
-          year: 2024, 
+        {
+          id: 39,
+          number: 3,
+          period: "JUL-SEP",
+          year: 2024,
           pdf: "/Pdfs/LR_(3-4)_2024.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 74, title: "Paper Title", author: "Author Name", pages: "1-26", pdf: "/Pdfs/Papers_2024_3/1.pdf" },
-            // Add more papers...
+            { id: 459, title: "Research Paper 1", author: "Tanya Mittal", pages: "1-6", pdf: "/Pdfs/Papers33/1.pdf" },
+            { id: 460, title: "Research Paper 2", author: "Dr. Farhana & Khushboo", pages: "7-15", pdf: "/Pdfs/Papers33/2.pdf" },
+            { id: 461, title: "Research Paper 3", author: "Dr. Preeti Singh", pages: "16-24", pdf: "/Pdfs/Papers33/3.pdf" },
+            { id: 462, title: "Research Paper 4", author: "Dr. Nitin Ramling Kumbhar", pages: "25-37", pdf: "/Pdfs/Papers33/4.pdf" },
+            { id: 463, title: "Research Paper 5", author: "Dr. Avnish Singh", pages: "1-6", pdf: "/Pdfs/Papers33/5.pdf" },
+            { id: 464, title: "Research Paper 6", author: "Dr. Puja Prerna", pages: "7-15", pdf: "/Pdfs/Papers33/6.pdf" },
+            { id: 465, title: "Research Paper 7", author: "Pallavi Yadav", pages: "16-24", pdf: "/Pdfs/Papers33/7.pdf" },
           ]
         },
-        { 
-          id: 40, 
-          number: 4, 
-          period: "OCT-DEC", 
-          year: 2024, 
+        {
+          id: 40,
+          number: 4,
+          period: "OCT-DEC",
+          year: 2024,
           pdf: "/Pdfs/LR_(3-4)_2024.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 75, title: "Paper Title", author: "Author Name", pages: "1-23", pdf: "/Pdfs/Papers_2024_4/1.pdf" },
-            // Add more papers...
+            { id: 459, title: "Research Paper 1", author: "Tanya Mittal", pages: "1-6", pdf: "/Pdfs/Papers33/1.pdf" },
+            { id: 460, title: "Research Paper 2", author: "Dr. Farhana & Khushboo", pages: "7-15", pdf: "/Pdfs/Papers33/2.pdf" },
+            { id: 461, title: "Research Paper 3", author: "Dr. Preeti Singh", pages: "16-24", pdf: "/Pdfs/Papers33/3.pdf" },
+            { id: 462, title: "Research Paper 4", author: "Dr. Nitin Ramling Kumbhar", pages: "25-37", pdf: "/Pdfs/Papers33/4.pdf" },
+            { id: 463, title: "Research Paper 5", author: "Dr. Avnish Singh", pages: "1-6", pdf: "/Pdfs/Papers33/5.pdf" },
+            { id: 464, title: "Research Paper 6", author: "Dr. Puja Prerna", pages: "7-15", pdf: "/Pdfs/Papers33/6.pdf" },
+            { id: 465, title: "Research Paper 7", author: "Pallavi Yadav", pages: "16-24", pdf: "/Pdfs/Papers33/7.pdf" },
           ]
         }
       ]
@@ -731,28 +948,43 @@ const Archives = () => {
       number: "XI",
       year: 2025,
       issues: [
-        { 
-          id: 41, 
-          number: 1, 
-          period: "JAN-MAR", 
-          year: 2025, 
+        {
+          id: 41,
+          number: 1,
+          period: "JAN-MAR",
+          year: 2025,
           pdf: "/Pdfs/LR_(1)_2025.pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 76, title: "Paper Title", author: "Author Name", pages: "1-25", pdf: "/Pdfs/Papers_2025_1/1.pdf" },
-            // Add more papers...
+            { id: 466, title: "HARMONIZING TRADE, ENVIRONMENTAL GOALS, AND CARBON TAXATION: A PERSPECTIVE ON THE EU’S CBAM POLICY", author: "Dr. Ankit Awasthi & Ms. Sriradha Rai Choudhuri", pages: "1-6", pdf: "/Pdfs/Papers34/1.pdf" },
+            { id: 467, title: "LEGAL REGIME ON MOB LYNCHING: A COMPARATIVE ANALYSIS OF INDIAN AND AMERICAN SCENARIO", author: "Anoop Kumar & Harinath Prasad", pages: "7-15", pdf: "/Pdfs/Papers34/2.pdf" },
+            { id: 468, title: "PUBLIC POLICY EXCEPTIONS IN JUDICIAL REVIEW OF INTERSTATE ARBITRATION AWARDS: “THEIR ROLE AND IMPACT", author: "Kumari Neha & Dr. Suneel Kumar", pages: "16-24", pdf: "/Pdfs/Papers34/3.pdf" },
+            { id: 469, title: "REVEALING WOMEN’S MARGINALISATION IN THE INDIAN JUDICIARY: OBSTACLES AND POSSIBILITIES FOR PARITY", author: "Rimjhim Rana Singh & Dr. Sanya Yadav", pages: "25-37", pdf: "/Pdfs/Papers34/4.pdf" },
+            { id: 470, title: "CORPORATE LIABILITY FOR DATA BREACHES IN INDIA: LEGAL FRAMEWORK, CHALLENGES AND IMPLICATIONS", author: "Manisha Debnath", pages: "1-6", pdf: "/Pdfs/Papers34/5.pdf" },
+            { id: 471, title: "HUMAN RIGHTS IN INDIA: CONTEMPORARY CHALLENGES AND SOLUTIONS", author: "Vanshika Dhiman", pages: "7-15", pdf: "/Pdfs/Papers34/6.pdf" },
+            { id: 472, title: "A COMPARATIVE LEGAL ANALYSIS OF LIABILITY AND INSURANCE REGIMES IN SPACE TOURISM: EVOLVING DOCTRINES AND REGULATORY CHALLENGES IN INDIAN NATIONAL LEGISLATION AND U.S. FEDERAL LEGISLATION", author: "Dr. Nitin Ramling Kumbhar ", pages: "16-24", pdf: "/Pdfs/Papers34/7.pdf" },
+            { id: 473, title: "TRANSGENDER INCLUSION IN INDIA: CHALLENGES IN EMPLOYMENT, EDUCATION, AND HEALTHCARE", author: "Urvashi Pacherya & Dr. D. P. Gupta ", pages: "16-24", pdf: "/Pdfs/Papers34/8.pdf" },
           ]
         },
-        { 
-          id: 42, 
-          number: 2, 
-          period: "APR-JUN [Current Published Issues]", 
-          year: 2025, 
+        {
+          id: 42,
+          number: 2,
+          period: "APR-JUN [Current Published Issues]",
+          year: 2025,
           pdf: "/Pdfs/LR_XI_(2)_2025_(1).pdf",
           papers: [
-            // UPDATE: Add actual paper data here
-            { id: 77, title: "Paper Title", author: "Author Name", pages: "1-27", pdf: "/Pdfs/Papers_2025_2/1.pdf" },
-            // Add more papers...
+            { id: 474, title: "BALANCING FREEDOM OF RELIGION AND FREEDOM OF EXPRESSION: REVIEW OF THE BLASPHEMY LAWS IN NIGERIA", author: "Sophia Chima", pages: "1-6", pdf: "/Pdfs/Papers35/1.pdf" },
+            { id: 475, title: "ALGORITHMIC ACCOUNTABILITY IN CORPORATE DECISION-MAKING: RECONSTRUCTING LIABILITY FRAMEWORKS FOR AI-DRIVEN GOVERNANCE", author: "Lakshya Kaushish & Deepanshi Tiwari", pages: "7-15", pdf: "/Pdfs/Papers35/2.pdf" },
+            { id: 476, title: "THE GREEN PARADOX: THE ENVIRONMENTAL IMPLICATIONS OF FDI IN A GLOBALISING WORLD", author: "Dhairya Jain & Dr Ankit Awasthi ", pages: "16-24", pdf: "/Pdfs/Papers35/3.pdf" },
+            { id: 477, title: "KAMAKHYA: THE CRADLE OF TANTRA IN NORTHEAST INDIA", author: "Dr Keshav Jha", pages: "25-37", pdf: "/Pdfs/Papers35/4.pdf" },
+            { id: 478, title: "AVATARS IN THE EYES OF THE LAW RE-IMAGINING INTELLECTUAL PROPERTY FOR FICTIONAL CHARACTERS IN INDIA’S DIGITAL AGE", author: "Pankaj Kaushish & Alayna Amin", pages: "1-6", pdf: "/Pdfs/Papers35/5.pdf" },
+            { id: 479, title: "LEGAL PROTECTION OF “KOKBOROK”: THE PRIDE OF NORTHEAST INDIA", author: "Dr Keshav Jha", pages: "7-15", pdf: "/Pdfs/Papers35/6.pdf" },
+            { id: 480, title: "CONFLICT TO CONSENSUS: MEDIATION PRACTICES IN JHARKHAND’S FAMILY DISPUTES", author: "Bishnanand Dubey & Dr Laxmikanta Das", pages: "16-24", pdf: "/Pdfs/Papers35/7.pdf" },
+            { id: 481, title: "GEOGRAPHICAL INDICATIONS AND TRADE LAW: LEGALGEOGRAPHICAL INDICATIONS AND TRADE LAW: LEGAL CHALLENGES IN PROMOTING UTTAR PRADESH’S GI-TAGGED HANDICRAFTS IN GLOBAL MARKETS", author: "Nikki Kumar & Dr Anis Ahmad", pages: "16-24", pdf: "/Pdfs/Papers35/8.pdf" },
+            { id: 482, title: "NAVIGATING TRANSFER PRICING: ISSUES AND CHALLENGES IN THE ERA OF BEPS 2.0", author: "Ramya S. R. & Dr Sanjay Kumar", pages: "1-6", pdf: "/Pdfs/Papers35/9.pdf" },
+            { id: 483, title: "NAVIGATING ETHICAL AI AND CORPORATE GOVERNANCE: DESIGNING INTERNAL COMPLIANCE FOR RESPONSIBLE AI USE", author: "Plabanee Patnaik & Sidhant Soin", pages: "7-15", pdf: "/Pdfs/Papers35/10.pdf" },
+            { id: 484, title: "NORTHEAST INDIA’S TANTRIC TEXT AND ITS INTERPRETATION THROUGH MIMANSA", author: "Dr Keshav Jha", pages: "16-24", pdf: "/Pdfs/Papers35/11.pdf" },
+            { id: 485, title: "UNFAIR PRACTICES IN THE GIG ECONOMY: WORKER RIGHTS AND CONSUMER IMPACT", author: "Pradeep Dixit ", pages: "25-37", pdf: "/Pdfs/Papers35/12.pdf" },
+            { id: 486, title: "THE LEGAL FRAMEWORK OF EMPLOYMENT CONTRACTS: RIGHTS AND OBLIGATIONS", author: "P Gokulapriya ", pages: "1-6", pdf: "/Pdfs/Papers35/13.pdf" },
           ]
         }
         // Note: Issues 3 and 4 for 2025 not yet available
@@ -783,7 +1015,7 @@ const Archives = () => {
 
   const renderBreadcrumb = () => (
     <div className="flex items-center gap-2 mb-8 text-sm text-gray-600">
-      <button 
+      <button
         onClick={handleBackToVolumes}
         className="hover:text-[#900001] transition-colors flex items-center gap-1"
       >
@@ -793,7 +1025,7 @@ const Archives = () => {
       {selectedVolume && (
         <>
           <ChevronRight className="w-4 h-4" />
-          <button 
+          <button
             onClick={handleBackToIssues}
             className="hover:text-[#900001] transition-colors"
           >
@@ -818,10 +1050,10 @@ const Archives = () => {
         Journal Archives
       </h1>
       <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-        Browse our comprehensive collection of journal volumes published from 2015 to present. 
+        Browse our comprehensive collection of journal volumes published from 2015 to present.
         Each volume contains quarterly issues with academic papers and research articles.
       </p>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {volumes.map((volume) => (
           <div
@@ -881,17 +1113,15 @@ const Archives = () => {
             <div
               key={issue.id}
               onClick={() => issue.pdf && handleIssueClick(issue)}
-              className={`group p-6 rounded-xl border-2 shadow-sm transition-all duration-300 transform hover:-translate-y-1 ${
-                issue.pdf 
-                  ? 'bg-white border-gray-100 hover:shadow-xl hover:border-[#900001] cursor-pointer' 
-                  : 'bg-gray-50 border-gray-200 cursor-not-allowed opacity-60'
-              }`}
+              className={`group p-6 rounded-xl border-2 shadow-sm transition-all duration-300 transform hover:-translate-y-1 ${issue.pdf
+                ? 'bg-white border-gray-100 hover:shadow-xl hover:border-[#900001] cursor-pointer'
+                : 'bg-gray-50 border-gray-200 cursor-not-allowed opacity-60'
+                }`}
             >
-              <div className={`flex items-center justify-center w-12 h-12 rounded-full mb-4 mx-auto transition-colors ${
-                issue.pdf 
-                  ? 'bg-[#900001] text-white group-hover:bg-[#700001]' 
-                  : 'bg-gray-400 text-white'
-              }`}>
+              <div className={`flex items-center justify-center w-12 h-12 rounded-full mb-4 mx-auto transition-colors ${issue.pdf
+                ? 'bg-[#900001] text-white group-hover:bg-[#700001]'
+                : 'bg-gray-400 text-white'
+                }`}>
                 <span className="font-bold">{issue.number}</span>
               </div>
               <h3 className="text-lg font-bold text-gray-800 text-center mb-2">
@@ -900,7 +1130,7 @@ const Archives = () => {
               <p className="text-sm text-gray-600 text-center mb-4">
                 {issue.period} {issue.year}
               </p>
-              
+
               {issue.pdf ? (
                 <div className="text-center">
                   <div className="flex items-center justify-center text-[#900001] group-hover:text-[#700001] transition-colors">
@@ -1007,7 +1237,7 @@ const Archives = () => {
               </a>
             ))}
           </div>
-          
+
           {papers.length === 0 && (
             <div className="text-center py-12 bg-gray-50 rounded-xl">
               <FileText className="w-16 h-16 text-gray-400 mx-auto mb-4" />
@@ -1017,12 +1247,12 @@ const Archives = () => {
               </p>
             </div>
           )}
-          
+
           {papers.length > 0 && (
             <div className="mt-8 p-6 bg-gray-50 rounded-xl border border-gray-200">
               <h4 className="text-lg font-semibold text-gray-800 mb-2">About this Issue</h4>
               <p className="text-gray-600 text-sm">
-                This issue contains {papers.length} research papers and academic contributions from various authors. 
+                This issue contains {papers.length} research papers and academic contributions from various authors.
                 You can download individual papers above or get the complete issue PDF from the top section.
               </p>
             </div>
@@ -1036,7 +1266,7 @@ const Archives = () => {
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-7xl mx-auto">
         {currentView !== 'volumes' && renderBreadcrumb()}
-        
+
         <div className="transition-all duration-500 ease-in-out">
           {currentView === 'volumes' && renderVolumes()}
           {currentView === 'issues' && renderIssues()}
