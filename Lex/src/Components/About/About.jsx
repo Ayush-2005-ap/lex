@@ -35,7 +35,7 @@ const About = () => {
         <section className="px-6 py-6 text-justify text-[15px] leading-relaxed">
           {/* Replace the paragraph below with your journal description */}
           <p className="text-gray-600">
-          Lex Revolution is an international, peer-reviewed, quarterly research journal focusing on social and legal studies. It invites original, unpublished research papers, articles, short comments, and book reviews from students, scholars, teachers, and professionals in the fields of law, human rights, and social sciences.
+          Lex Revolution is a peer-reviewed, quarterly research journal focusing on social and legal studies. It invites original, unpublished research papers, articles, short comments, and book reviews from students, scholars, teachers, and professionals in the fields of law, human rights, and social sciences.
           </p>
         </section>
 
