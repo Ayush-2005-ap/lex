@@ -6,8 +6,8 @@ const About = () => {
   const particulars = [
     { label: 'Title',                value: 'Lex Revolution' },
     { label: 'Frequency',            value: 'Quaterly' },
-    { label: 'ISSN(Print)',                 value: '2394-997X' },
-    // { label: 'E-ISSN',               value: 'Applied For'},
+    { label: 'ISSN (Print)',                 value: '2394-997X' },
+    { label: 'ISSN (Online)',               value: '3107-829X'},
     { label: 'Publisher',            value: 'Dr. Vijay Bahadur Pandey' },
     { label: 'Chief Editor',         value: 'Animesh Kumar' },
     { label: 'Copyright',            value: 'Lex Revolution' },

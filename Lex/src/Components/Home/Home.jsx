@@ -9,7 +9,7 @@ export default function Home() {
                 <div className="relative z-10  max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8 bg-[url('/Law_Order_final.png')] rounded-3xl">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-left sm:text-left text-white" >
                     <h2 className='text-[#a90c0c] text-3xl font-bold animate-fadeInUp'>Lex Revolution 
-                        <br></br>ISSN 2394-997X (Print)</h2>
+                        <br></br>ISSN 2394-997X (Print) <br />ISSN 3107-829X (Online)</h2>
                         <p className='text-lg animate-fadeInUp'>Lex Revolution is a peer-reviewed Journal of Social & Legal Studies, Quarterly published research journal focusing on social and legal studies. It invites original, unpublished research papers, articles, short comments, and book reviews from students, scholars, teachers, and professionals in the fields of law, human rights, and social sciences.</p>
                     </div>
                 </div>
