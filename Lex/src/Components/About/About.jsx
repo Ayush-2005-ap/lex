@@ -1,68 +1,209 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Scale, BookOpen, Users, Award, Globe, Mail, Phone, MapPin, Calendar, FileText, Building, User } from 'lucide-react';
 
 const About = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const [activeCard, setActiveCard] = useState(null);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
   /* ----------------- Journal particulars ----------------- */
-  // Replace the values on the right with your actual data.
   const particulars = [
-    { label: 'Title',                value: 'Lex Revolution' },
-    { label: 'Frequency',            value: 'Quaterly' },
-    { label: 'ISSN (Print)',                 value: '2394-997X' },
-    { label: 'ISSN (Online)',               value: '3107-829X'},
-    { label: 'Publisher',            value: 'Dr. Vijay Bahadur Pandey' },
-    { label: 'Chief Editor',         value: 'Animesh Kumar' },
-    { label: 'Copyright',            value: 'Lex Revolution' },
-    { label: 'Starting Year',        value: '2015' },
-    { label: 'Subject',              value: 'Social Science' },
-    { label: 'Language',             value: 'English' },
-    { label: 'Publication Format',   value: 'Print & Online' },
-    { label: 'Phone No.',            value: 'XXXXX' },
-    { label: 'Email Id',             value: 'editor.lexrevolution@gmail.com' },
-    { label: 'Mobile No.',           value: 'XXXXX' },
-    { label: 'Website',              value: 'www.lexrevolution.in' },
-    { label: 'Address',              value: 'Rimjhim Smriti, South NH‑922, At PO Nuaon Krishnabrahm, Buxar‑802111 (Bihar)' },
+    { label: 'Title', value: 'Lex Revolution', icon: FileText },
+    { label: 'Frequency', value: 'Quarterly', icon: Calendar },
+    { label: 'ISSN', value: '2394-997X', icon: BookOpen },
+    { label: 'E-ISSN', value: '3107-829X', icon: Globe },
+    { label: 'Publisher', value: 'Dr. Vijay Bahadur Pandey', icon: Building },
+    { label: 'Chief Editor', value: 'Dr. Animesh Kumar', icon: User },
+    { label: 'Copyright', value: 'Lex Revolution', icon: Award },
+    { label: 'Starting Year', value: '2015', icon: Calendar },
+    { label: 'Subject', value: 'Social Science', icon: BookOpen },
+    { label: 'Language', value: 'English', icon: Globe },
+    { label: 'Publication Format', value: 'Print & Online', icon: FileText },
+    { label: 'Phone No.', value: 'XXXXX', icon: Phone },
+    { label: 'Email Id', value: 'editor.lexrevolution@gmail.com', icon: Mail },
+    { label: 'Mobile No.', value: 'XXXXX', icon: Phone },
+    { label: 'Website', value: 'www.lexrevolution.in', icon: Globe },
+    { label: 'Address', value: 'Rimjhim Smriti, South NH‑922, At PO Nuaon Krishnabrahm, Buxar‑802111 (Bihar)', icon: MapPin },
+  ];
+
+  const highlights = [
+    {
+      icon: Scale,
+      title: "International Recognition",
+      description: "Peer-reviewed journal with global reach and academic excellence",
+      color: "from-amber-500 to-red-600"
+    },
+    {
+      icon: BookOpen,
+      title: "Quarterly Publication",
+      description: "Regular publication schedule ensuring consistent scholarly output",
+      color: "from-blue-500 to-indigo-600"
+    },
+    {
+      icon: Users,
+      title: "Diverse Contributors",
+      description: "Students, scholars, teachers, and professionals worldwide",
+      color: "from-green-500 to-teal-600"
+    },
+    {
+      icon: Award,
+      title: "Academic Excellence",
+      description: "Maintaining highest standards in legal and social research",
+      color: "from-purple-500 to-pink-600"
+    }
   ];
 
   return (
-    <main className="bg-white py-10 px-4 sm:px-8 lg:px-16">
-      <div className="max-w-5xl mx-auto border border-gray-300 shadow-md">
-        {/* ---------- Section: About the Journal ---------- */}
-        <header className="bg-[#e7f2ff] border-b border-gray-300 px-4 py-3">
-          <h1 className="text-xl font-bold text-[#900001] uppercase tracking-wide animate-fadeInUp">
-            About the Journal
-          </h1>
-        </header>
-
-        <section className="px-6 py-6 text-justify text-[15px] leading-relaxed">
-          {/* Replace the paragraph below with your journal description */}
-          <p className="text-gray-600">
-          Lex Revolution is a peer-reviewed,quaterly published journal focusing on social and legal studies. It invites original, unpublished research papers, articles, short comments, and book reviews from students, scholars, teachers, and professionals in the fields of law, human rights, and social sciences.
-          </p>
-        </section>
-
-        {/* ---------- Section: Journal Particulars ---------- */}
-        <h2 className="text-center font-semibold text-[#900001] uppercase tracking-wide mb-4">
-          Journal Particulars
-        </h2>
-
-        <dl className="w-full border-t border-gray-300">
-          {particulars.map(({ label, value }, idx) => (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+      {/* Hero Section */}
+      <section className="relative overflow-hidden py-20">
+        {/* Animated Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 opacity-95"></div>
+        <div className="absolute inset-0 bg-gradient-to-tr from-amber-900/20 via-transparent to-red-900/30"></div>
+        
+        {/* Floating Particles */}
+        <div className="absolute inset-0">
+          {[...Array(15)].map((_, i) => (
             <div
-              key={label}
-              className={`grid grid-cols-12 ${
-                idx % 2 ? 'bg-[#f7fafe]' : 'bg-white'
-              } border-b border-gray-300`}
-            >
-              <dt className="col-span-4 sm:col-span-3 lg:col-span-2 px-4 py-2 font-medium text-gray-700">
-                {label}
-              </dt>
-              <dd className="col-span-8 sm:col-span-9 lg:col-span-10 px-4 py-2 text-gray-600">
-                {value}
-              </dd>
-            </div>
+              key={i}
+              className="absolute w-2 h-2 bg-amber-400/30 rounded-full animate-pulse"
+              style={{
+                left: `${Math.random() * 100}%`,
+                top: `${Math.random() * 100}%`,
+                animationDelay: `${Math.random() * 3}s`,
+                animationDuration: `${2 + Math.random() * 3}s`
+              }}
+            ></div>
           ))}
-        </dl>
-      </div>
-    </main>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <div className="flex justify-center items-center space-x-4 mb-8">
+              <Scale className="w-16 h-16 text-amber-400 animate-bounce" />
+              <BookOpen className="w-12 h-12 text-amber-300 animate-pulse" />
+            </div>
+            
+            <h1 className="text-5xl sm:text-7xl font-bold bg-gradient-to-r from-amber-400 via-red-500 to-amber-600 bg-clip-text text-transparent mb-6">
+              About Lex Revolution
+            </h1>
+            
+            <p className="text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed">
+              Discover the story behind our, peer-reviewed journal dedicated to advancing legal scholarship and social research worldwide.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <main className="relative -mt-10 z-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          {/* About Section */}
+          <section className={`bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl border border-white/20 mb-12 overflow-hidden transform transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <header className="bg-gradient-to-r from-slate-800 via-blue-800 to-indigo-800 px-8 py-6">
+              <h2 className="text-2xl font-bold text-white uppercase tracking-wide flex items-center">
+                <FileText className="w-8 h-8 mr-3 text-amber-400" />
+                About the Journal
+              </h2>
+            </header>
+
+            <div className="px-8 py-8">
+              <div className="relative">
+                <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-amber-500 to-red-600 rounded-full"></div>
+                <p className="text-lg text-gray-700 leading-relaxed pl-8">
+                  <span className="text-2xl font-bold text-transparent bg-gradient-to-r from-amber-600 to-red-600 bg-clip-text">Lex Revolution</span> is a peer-reviewed, quarterly published research journal focusing on social and legal studies. It invites original, unpublished research papers, articles, short comments, and book reviews from students, scholars, teachers, and professionals in the fields of law, human rights, and social sciences.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Highlights Grid */}
+          <section className={`mb-12 transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {highlights.map((highlight, index) => (
+                <div
+                  key={index}
+                  className="group relative bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/20 transform transition-all duration-500 hover:scale-105 hover:shadow-2xl"
+                  onMouseEnter={() => setActiveCard(index)}
+                  onMouseLeave={() => setActiveCard(null)}
+                >
+                  <div className={`absolute inset-0 bg-gradient-to-br ${highlight.color} opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300`}></div>
+                  
+                  <div className="relative z-10">
+                    <div className={`w-12 h-12 bg-gradient-to-br ${highlight.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                      <highlight.icon className="w-6 h-6 text-white" />
+                    </div>
+                    
+                    <h3 className="text-lg font-semibold text-gray-800 mb-2">{highlight.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{highlight.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Journal Particulars */}
+          <section className={`bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl border border-white/20 overflow-hidden transform transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <header className="bg-gradient-to-r from-slate-800 via-blue-800 to-indigo-800 px-8 py-6">
+              <h2 className="text-2xl font-bold text-white uppercase tracking-wide text-center flex items-center justify-center">
+                <Award className="w-8 h-8 mr-3 text-amber-400" />
+                Journal Particulars
+              </h2>
+            </header>
+
+            <div className="p-8">
+              <div className="grid gap-4">
+                {particulars.map(({ label, value, icon: Icon }, idx) => (
+                  <div
+                    key={label}
+                    className={`group relative grid grid-cols-12 items-center p-4 rounded-xl transition-all duration-300 hover:shadow-lg transform hover:scale-[1.02] ${
+                      idx % 2 ? 'bg-gradient-to-r from-blue-50 to-indigo-50' : 'bg-gradient-to-r from-slate-50 to-gray-50'
+                    }`}
+                  >
+                    {/* Animated Border */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-amber-400 to-red-500 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                    
+                    <div className="relative z-10 col-span-12 sm:col-span-4 lg:col-span-3 flex items-center space-x-3">
+                      <div className="w-8 h-8 bg-gradient-to-br from-slate-600 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <Icon className="w-4 h-4 text-white" />
+                      </div>
+                      <span className="font-semibold text-gray-800">{label}</span>
+                    </div>
+                    
+                    <div className="relative z-10 col-span-12 sm:col-span-8 lg:col-span-9 mt-2 sm:mt-0">
+                      <span className="text-gray-700 break-words">{value}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Call to Action */}
+          <section className={`text-center py-16 transform transition-all duration-1000 delay-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <div className="bg-gradient-to-r from-amber-500 via-red-500 to-amber-600 rounded-3xl p-8 shadow-2xl">
+              <h3 className="text-3xl font-bold text-white mb-4">Join Our Academic Community</h3>
+              <p className="text-white/90 text-lg mb-6 max-w-2xl mx-auto">
+                Be part of the global network of legal scholars and researchers contributing to the advancement of social and legal studies.
+              </p>
+              {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <button className="group px-8 py-4 bg-white text-red-600 font-semibold rounded-full transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <span className="group-hover:text-red-700">Submit Your Research</span>
+                </button>
+                <button className="group px-8 py-4 border-2 border-white text-white font-semibold rounded-full transform transition-all duration-300 hover:bg-white hover:text-red-600 hover:scale-105">
+                  Contact Editorial Board
+                </button>
+              </div> */}
+            </div>
+          </section>
+
+        </div>
+      </main>
+    </div>
   );
 };
 
