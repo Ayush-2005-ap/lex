@@ -147,7 +147,7 @@ const Editor = () => {
         },
         {
             name: 'Sandhya Sharma',
-            title: 'Doctoral Candidate, Bennett University',
+            title: 'Asst. Professor, Christ University, Lavasa',
         },
         {
             name: 'Gaurav Yadav',
@@ -354,9 +354,9 @@ const Editor = () => {
                     {/* Chief & Executive Editor */}
                     <section className={`mb-16 transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
                         <div className="text-center mb-12">
-                            <h2 className="text-4xl font-bold bg-gradient-to-r from-slate-800 to-blue-800 bg-clip-text text-transparent mb-4">
+                            {/* <h2 className="text-4xl font-bold bg-gradient-to-r from-slate-800 to-blue-800 bg-clip-text text-transparent mb-4">
                                 Leadership Team
-                            </h2>
+                            </h2> */}
                             <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-red-600 mx-auto rounded-full"></div>
                         </div>
 
