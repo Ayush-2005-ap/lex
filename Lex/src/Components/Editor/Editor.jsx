@@ -182,9 +182,9 @@ const Editor = () => {
                     {/* Chief */}
                     <div className="flex flex-col items-center p-4 w-[300px] bg-white rounded shadow-md hover:scale-105 hover:bg-gray-400 transition duration-300">
                         <a href="https://www.linkedin.com/in/advanimeshkumar/" target="_blank" rel="noopener noreferrer">
-                            <img src="/Images/editor-in-chief.jpg" alt="editor-in-chief" className="w-full rounded shadow-md" />
+                            <img src="/Images/Dr_Animesh.png" alt="editor-in-chief" className="w-full h-[300px] rounded shadow-md" />
                         </a>
-                        <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Animesh Kumar</h2>
+                        <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Dr. Animesh Kumar</h2>
                         <h3 className="text-[#a90c0c] font-[cursive] text-lg">Editor-in-Chief</h3>
                         <h4 className="text-black text-sm font-bold">animesh@ccs.in</h4>
                         <p className="text-center text-sm text-black">Advocate & Senior Legal Research Consultant</p>
@@ -195,11 +195,11 @@ const Editor = () => {
                     {/* Executive */}
                     <div className="flex flex-col items-center p-4 w-[300px] bg-white rounded shadow-md hover:scale-105 hover:bg-gray-400 transition duration-300">
                         <a href="https://www.linkedin.com/in/mayuri-gupta-52064160/" target="_blank" rel="noopener noreferrer">
-                            <img src="/Images/executive-editor.jpg" alt="executive-editor" className="w-full rounded shadow-md" />
+                            <img src="/Images/executive-editor.jpg" alt="executive-editor" className="w-full h-[300px] rounded shadow-md" />
                         </a>
                         <h2 className="text-[#11ACD5] font-semibold text-lg mt-3">Mayuri Gupta</h2>
                         <h3 className="text-[#a90c0c] font-[cursive] text-lg">Chief Executive Editor</h3>
-                        <h4 className="text-black text-sm font-bold">mayuri.gupta@vidhipolicy.in</h4>
+                        <h4 className="text-black text-sm font-bold">mayuri.gupta@vidhilegalpolicy.in</h4>
                         <p className="text-center text-sm text-black">Advocate & Senior Resident Fellow</p>
                         <p className="text-center text-sm text-black">Charkha, Constitutional Law Research</p>
                         <p className='text-center text-sm text-black'>Vidhi Centre for Legal Policy, A-232 <br />Defence Colony, New Delhi</p>

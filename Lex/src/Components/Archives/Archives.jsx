@@ -968,7 +968,7 @@ const Archives = () => {
         {
           id: 42,
           number: 2,
-          period: "APR-JUN [Current Published Issues]",
+          period: "APR-JUN ",
           year: 2025,
           pdf: "/Pdfs/LR_XI_(2)_2025_(1).pdf",
           papers: [
@@ -986,7 +986,25 @@ const Archives = () => {
             { id: 485, title: "UNFAIR PRACTICES IN THE GIG ECONOMY: WORKER RIGHTS AND CONSUMER IMPACT", author: "Pradeep Dixit ", pages: "25-37", pdf: "/Pdfs/Papers35/12.pdf" },
             { id: 486, title: "THE LEGAL FRAMEWORK OF EMPLOYMENT CONTRACTS: RIGHTS AND OBLIGATIONS", author: "P Gokulapriya ", pages: "1-6", pdf: "/Pdfs/Papers35/13.pdf" },
           ]
-        }
+        },
+        {
+          id: 43,
+          number: 3,
+          period: "JUL-SEP [Current Published Issues]",
+          year: 2025,
+          pdf: "/Pdfs/LR_XI_(2)_2025_(1).pdf",
+          papers: [
+            { id: 487, title: "GLOBAL TRADE AND SHIPPING OF COUNTERFEIT GOODS: CONTRIBUTION OF DIGITAL PLATFORMS AND EXPRESS SERVICES", author: "Subhradeep Saha & Dr Ankit Awasthi", pages: "1-21", pdf: "/Pdfs/Papers36/1.pdf" },
+            { id: 488, title: "PROPORTIONALITY IN NDPS SENTENCING: JUDICIAL APPROACHES", author: "Himanshu Priyadarshi", pages: "7-15", pdf: "/Pdfs/Papers36/2.pdf" },
+            { id: 489, title: "WOMEN, TRADE AND LAW: LEGAL PERSPECTIVES ON WOMEN’S ECONOMIC EMPOWERMENT", author: "Hriti Parekh & Dr Ankit Awasthi", pages: "16-24", pdf: "/Pdfs/Papers36/3.pdf" },
+            { id: 490, title: "WOMEN WORKERS IN TEA PLANTATION: A STUDY ON THE WORKING CONDITIONS AND LABOUR WELFARE IN BALIJAAN TEA ESTATE, DIBRUGARH DISTRICT, ASSAM", author: "Sangita Hazarika, Dr Baloy Bhattacharjee & Dr Sachchidanand S. Das", pages: "25-37", pdf: "/Pdfs/Papers36/4.pdf" },
+            { id: 491, title: "CONSUMER DATA SHARING IN URBAN INDIA: THE ROLE OF PRIVACY AND DATA PROTECTION STANDARDS AMONG E-COMMERCE USERS", author: "Adarsh Philip Roy", pages: "1-6", pdf: "/Pdfs/Papers36/5.pdf" },
+            { id: 492, title: "PREPARING FUTURE TEACHERS - FOCUS AND IMPETUS REQUIRED AT THE TRAINING LEVEL: A REVIEW OF TEACHING PRACTICE IN THE LIGHT OF INDIA’S NATIONAL EDUCATIONAL POLICY, 2020", author: "Priyanka", pages: "7-15", pdf: "/Pdfs/Papers36/6.pdf" },
+            { id: 493, title: "CHILD CARE INSTITUTIONS IN INDIA", author: "Priya Tiwari", pages: "16-24", pdf: "/Pdfs/Papers36/7.pdf" },
+            { id: 494, title: "VEDIC EGALITARIANISM, ĒKATMĀ MĀNAVAVĀD AND THEIR INFLUENCE ON GENDER-JUST LEGAL FRAMEWORKS IN NATIONAL SECURITY", author: "Dr Keshav Jha", pages: "16-24", pdf: "/Pdfs/Papers36/8.pdf" },
+            { id: 495, title: "VEDIC IDEALS OF GENDER JUSTICE AND NATIONAL SECURITY JURISPRUDENCE IN INTEGRAL HUMANISM", author: "Dr Keshav Jha", pages: "1-6", pdf: "/Pdfs/Papers36/9.pdf" },
+          ]
+        },
         // Note: Issues 3 and 4 for 2025 not yet available
       ]
     }
