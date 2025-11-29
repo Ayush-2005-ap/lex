@@ -996,7 +996,7 @@ const Archives = () => {
           number: 3,
           period: "JUL-SEP [Current Published Issues]",
           year: 2025,
-          pdf: "/Pdfs/LR_XI_(2)_2025_(1).pdf",
+          pdf: "/Pdfs/LR_XI_(3)_2025.pdf",
           papers: [
             { id: 487, title: "GLOBAL TRADE AND SHIPPING OF COUNTERFEIT GOODS: CONTRIBUTION OF DIGITAL PLATFORMS AND EXPRESS SERVICES", author: "Subhradeep Saha & Dr Ankit Awasthi", pages: "1-21", pdf: "/Pdfs/Papers36/1.pdf" },
             { id: 488, title: "PROPORTIONALITY IN NDPS SENTENCING: JUDICIAL APPROACHES", author: "Himanshu Priyadarshi", pages: "7-15", pdf: "/Pdfs/Papers36/2.pdf" },
