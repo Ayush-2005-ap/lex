@@ -104,14 +104,14 @@ const Editor = () => {
         },
         {
             name: 'Dr. Shilpika Pandey',
-            title: 'Asst. Professor of Law, D.Y. Patil International University, Pune',
+            title: 'Asst. Professor of Law, G.D Goenka University, Gurugram',
         },
         {
             name: 'Dr. Manisha Patawari',
             title: 'Asst. Professor of Law, ILNU, Nirma University, Ahmedabad'
         },
         {
-            name: "Mr Anoop Yadav",
+            name: "Dr. Anoop Yadav",
             title: 'Prosecution Officer, CBI, New Delhi'
         },
         {
@@ -139,7 +139,7 @@ const Editor = () => {
         },
         {
             name: 'Harsha Manav',
-            title: 'Deputy Manager Regulatory - Legal Greenko Group',
+            title: 'Manager (Regulatory) - Legal Greenko Group',
         },
         {
             name: 'Shivam Kumar Gupta',
@@ -229,13 +229,13 @@ const Editor = () => {
         {
             name: 'Dr. Preeti Singh',
             title: 'Assistant Professor',
-            university: 'Bennett University, Greater Noida',
-            email: 'Email:preeti.singh@bennett.edu.in',
-            department: "School of Law",
+            university: 'University of Delhi',
+            email: 'Email:preeti@lc1.du.ac.in',
+            department: "Faculty of Law",
             img: '/Images/dr.preeti-final.jpg',
             department2: "",
-            Address1: "Bennett University, Plot#8-11, Tech Zone-2",
-            Address2: "Greater Noida, Uttar Pradesh",
+            Address1: "Law Centre-I, Faculty of Law",
+            Address2: "University of Delhi, Delhi",
         },
         {
             name: 'Aprajita Kumari',
@@ -397,7 +397,7 @@ const Editor = () => {
                                     <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                                         <User className="w-6 h-6 text-white" />
                                     </div>
-                                    <h3 className="text-2xl font-bold text-blue-600 mb-2">Mayuri Gupta</h3>
+                                    <h3 className="text-2xl font-bold text-blue-600 mb-2">Dr. Mayuri Gupta</h3>
                                     <p className="text-red-600 font-semibold text-lg mb-2">Chief Executive Editor</p>
                                     <p className="text-gray-700 font-medium mb-2">mayuri.gupta@vidhipolicy.in</p>
                                     <p className="text-gray-600 text-sm leading-relaxed">
