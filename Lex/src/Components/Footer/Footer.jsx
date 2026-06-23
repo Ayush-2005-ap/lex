@@ -104,8 +104,8 @@ export default function Footer() {
                 {/* ---------- Designer Credit ---------- */}
                 <div className="mt-6 text-center text-xs sm:text-sm text-gray-500 italic">
                     Designed & Developed by <span className="font-semibold text-gray-800">
-                        Ayush Pandey
-                    </span> — B.Tech CSE (2023–2027), Bennett University (The Times Group)
+                        <a href="https://www.linkedin.com/in/ayushpandey20/">Ayush Pandey</a>
+                    </span> - B.Tech CSE (2023–2027), Bennett University (The Times Group)
                 </div>
             </div>
         </footer>

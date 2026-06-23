@@ -261,7 +261,7 @@ const Archives = () => {
           pdf: "/Pdfs/LR_(1)_2017.pdf",
           papers: [
             { id: 146, title: "Research Paper 1", author: "Animesh Kumar", pages: "1-6", pdf: "/Pdfs/Papers8/1.pdf" },
-            { id: 147, title: "Research Paper 2", author: "Aditi Singhal ", pages: "7-15", pdf: "/Pdfs/Paper87/2.pdf" },
+            { id: 147, title: "Research Paper 2", author: "Aditi Singhal ", pages: "7-15", pdf: "/Pdfs/Paper8/2.pdf" },
             { id: 148, title: "Research Paper 3", author: "Akanksha Pandey", pages: "16-24", pdf: "/Pdfs/Papers8/3.pdf" },
             { id: 149, title: "Research Paper 4", author: "Sagar Khanna & Akansha Srivastava ", pages: "25-37", pdf: "/Pdfs/Papers8/4.pdf" },
             { id: 150, title: "Research Paper 5", author: "Diksha Chadha", pages: "38-46", pdf: "/Pdfs/Papers8/5.pdf" },
@@ -994,7 +994,7 @@ const Archives = () => {
         {
           id: 43,
           number: 3,
-          period: "JUL-SEP [Current Published Issues]",
+          period: "JUL-SEP",
           year: 2025,
           pdf: "/Pdfs/LR_XI_(3)_2025.pdf",
           papers: [
@@ -1009,7 +1009,31 @@ const Archives = () => {
             { id: 495, title: "VEDIC IDEALS OF GENDER JUSTICE AND NATIONAL SECURITY JURISPRUDENCE IN INTEGRAL HUMANISM", author: "Dr Keshav Jha", pages: "122-126", pdf: "/Pdfs/Papers36/9.pdf" },
           ]
         },
+        
         // Note: Issues 3 and 4 for 2025 not yet available
+      ]
+    },
+    {
+      id: 12,
+      number: "XII",
+      year: 2026,
+      issues: [
+        {
+          id: 44,
+          number: 1,
+          period: "JAN-MAR 2026 [Current Published Issues]",
+          year: 2026,
+          pdf: "/Pdfs/LR_(12)_2026.pdf",
+          papers: [
+            { id: 496, title: "VEDIC SCIENCE AND NATURAL LAW - A COMPARATIVE STUDY WITH MODERN JURISPRUDENCE", author: "Dr Keshav Jha", pages: "", pdf: "/Pdfs/Papers37/1.pdf" },
+            { id: 497, title: "VEDIC SCIENCE AND ITS RELEVANCE IN MODERN EDUCATION", author: "Dr Keshav Jha", pages: "", pdf: "/Pdfs/Papers37/2.pdf" },
+            { id: 498, title: "BRIDGING PROMISE AND REALITY - EVALUATING THE RIGHT TO EDUCATION ACT IN TODAYS INDIA", author: "Dr Avnish Singh & Sagarika Singh", pages: "", pdf: "/Pdfs/Papers37/3.pdf" },
+            { id: 499, title: "LEGITIMISING THE CONCEPT OF OPEN ADOPTION IN INDIA", author: "Prof. (Dr.) Achina Kundu & Dr Baloy Bhattacharjee", pages: "", pdf: "/Pdfs/Papers37/4.pdf" },
+            { id: 500, title: "CIVIL NUCLEAR ENERGY AND INTERNATIONAL LAW - FRAMEWORKS, OBLIGATIONS, AND EMERGING CHALLENGES", author: "Dr Nitin R. Kumbhar", pages: "", pdf: "/Pdfs/Papers37/5.pdf" },
+            { id: 501, title: "FROM PHISHING TO DEEPFAKES - EVALUATING INDIA PREPAREDNESS AGAINST EMERGING CYBER THREATS", author: "Anjali, Satwik Bhardwaj, & Dr Dhawal Shankar Srivastava", pages: "", pdf: "/Pdfs/Papers37/6.pdf" },
+            { id: 502, title: "WOMEN RESERVATION IN LEGISLATURE - A CONSTITUTIONAL POLITICAL AND SOCIO-LEGAL ANALYSIS", author: "Anju Bala", pages: "", pdf: "/Pdfs/Papers37/7.pdf" }
+          ]
+        }
       ]
     }
   ];
